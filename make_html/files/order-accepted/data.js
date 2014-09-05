@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"order-accepted.html",
-  "generationDate":new Date(1409664629253.66),
+  "generationDate":new Date(1409902483681.08),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -600,7 +600,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u211.png"}},
+            "normal~":"images/elefan/u220.png"}},
 {
           "id":"63c2de10cb554d9b91e9552e8c18e764",
           "label":"",
@@ -633,7 +633,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u211.png"}},
+            "normal~":"images/elefan/u220.png"}},
 {
           "id":"dc07e30f8c6b4e2a88f345cb3971f5ac",
           "label":"",
@@ -666,7 +666,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u211.png"}},
+            "normal~":"images/elefan/u220.png"}},
 {
           "id":"ef9abde5354a43b4a040215710a92bac",
           "label":"",
@@ -699,50 +699,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u211.png"}},
-{
-          "id":"0f328a3870af4848ab4dc8f103fed504",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"paragraph",
-          "visible":true,
-          "style":{
-            "fontName":"'Tahoma Обычный', 'Tahoma'",
-            "foreGroundFill":{
-              "fillType":"solid",
-              "color":0xFFFF0080,
-              "opacity":1},
-            "location":{
-              "x":384,
-              "y":597},
-            "size":{
-              "width":210,
-              "height":16}},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"abc4b8054f8043cfad35576fc487be16",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fontName":"'Tahoma Обычный', 'Tahoma'",
-                "foreGroundFill":{
-                  "fillType":"solid",
-                  "color":0xFFFF0080,
-                  "opacity":1},
-                "location":{
-                  "x":384,
-                  "y":597},
-                "size":{
-                  "width":210,
-                  "height":16}},
-              "adaptiveStyles":{
-}}],
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
+            "normal~":"images/elefan/u220.png"}},
 {
           "id":"96e8fde9109b4e19984f6e043eeef63a",
           "label":"",
@@ -789,42 +746,6 @@
           "images":{
             "normal~":"resources/images/transparent.gif"}},
 {
-          "id":"a35d1986f83544888a6c76f8eecc96a3",
-          "label":"",
-          "type":"textBox",
-          "styleType":"textBox",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":389,
-              "y":635},
-            "size":{
-              "width":200,
-              "height":25}},
-          "adaptiveStyles":{
-},
-          "images":{
-            "normal~":"images/buy/u78_image_sketch.png",
-            "disabled~":"images/buy/u78_disabled.png"}},
-{
-          "id":"f9b6461be08e44168ee550a1d8a8cdab",
-          "label":"",
-          "type":"button",
-          "styleType":"button",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":566,
-              "y":635},
-            "size":{
-              "width":28,
-              "height":25}},
-          "adaptiveStyles":{
-},
-          "images":{
-            "normal~":"images/elefan/u224_image_sketch.png",
-            "disabled~":"images/elefan/u224_disabled.png"}},
-{
           "id":"ed1bc104055c45b8afd76ca3169e21ce",
           "label":"",
           "type":"imageBox",
@@ -856,7 +777,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u225.png"}},
+            "normal~":"images/elefan/u234.png"}},
 {
           "id":"4b951842481f45f98fb14b310135f60a",
           "label":"",
@@ -889,7 +810,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u225.png"}},
+            "normal~":"images/elefan/u234.png"}},
 {
           "id":"51903c2138594e239ca2b98fb89204f4",
           "label":"",
@@ -922,7 +843,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u225.png"}},
+            "normal~":"images/elefan/u234.png"}},
 {
           "id":"4d825f195d654142a401a2d673e11c6d",
           "label":"",
@@ -955,7 +876,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u225.png"}},
+            "normal~":"images/elefan/u234.png"}},
 {
           "id":"321f4f324433488c8a325113d629116d",
           "label":"",
@@ -988,7 +909,86 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u225.png"}}]}},
+            "normal~":"images/elefan/u234.png"}},
+{
+          "id":"c5906fdad89842529f4d2172077cc84b",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "fontName":"'Tahoma Обычный', 'Tahoma'",
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFFFF0080,
+              "opacity":1},
+            "location":{
+              "x":441,
+              "y":595},
+            "size":{
+              "width":100,
+              "height":16}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"8e9b687e8cf34cb387477d16a49609af",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Tahoma Обычный', 'Tahoma'",
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFF0080,
+                  "opacity":1},
+                "location":{
+                  "x":441,
+                  "y":595},
+                "size":{
+                  "width":100,
+                  "height":16}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}},
+{
+          "id":"14a5480e83974fc48b297ffce8588500",
+          "label":"",
+          "type":"textBox",
+          "styleType":"textBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":388,
+              "y":633},
+            "size":{
+              "width":200,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "normal~":"images/buy/u78_image_sketch.png",
+            "disabled~":"images/buy/u78_disabled.png"}},
+{
+          "id":"95e8f064911145e8a1a7c13c1e1cbc4b",
+          "label":"",
+          "type":"button",
+          "styleType":"button",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":560,
+              "y":633},
+            "size":{
+              "width":28,
+              "height":25}},
+          "adaptiveStyles":{
+},
+          "images":{
+            "normal~":"images/elefan/u233_image_sketch.png",
+            "disabled~":"images/elefan/u233_disabled.png"}}]}},
   "masters":{
     "fdae7ed1a7a54530b5f4cecce3fbfa3f":{
       "packageId":"fdae7ed1a7a54530b5f4cecce3fbfa3f",
@@ -2288,35 +2288,35 @@
       "scriptId":"u76"},
     "b9acdda4f3734be4a610b249b1086a6e":{
       "scriptId":"u77"},
-    "0f328a3870af4848ab4dc8f103fed504":{
-      "scriptId":"u78"},
-    "abc4b8054f8043cfad35576fc487be16":{
-      "scriptId":"u79"},
     "96e8fde9109b4e19984f6e043eeef63a":{
-      "scriptId":"u80"},
+      "scriptId":"u78"},
     "8eb0bdf964a3460e991f3ae385b3c333":{
-      "scriptId":"u81"},
-    "a35d1986f83544888a6c76f8eecc96a3":{
-      "scriptId":"u82"},
-    "f9b6461be08e44168ee550a1d8a8cdab":{
-      "scriptId":"u83"},
+      "scriptId":"u79"},
     "ed1bc104055c45b8afd76ca3169e21ce":{
-      "scriptId":"u84"},
+      "scriptId":"u80"},
     "eb1302739c194ee5a75f5ad88e99704c":{
-      "scriptId":"u85"},
+      "scriptId":"u81"},
     "4b951842481f45f98fb14b310135f60a":{
-      "scriptId":"u86"},
+      "scriptId":"u82"},
     "238665adb09740caabd277f3cd2b48da":{
-      "scriptId":"u87"},
+      "scriptId":"u83"},
     "51903c2138594e239ca2b98fb89204f4":{
-      "scriptId":"u88"},
+      "scriptId":"u84"},
     "6a6bfb0020c24c6f95f1396746a72679":{
-      "scriptId":"u89"},
+      "scriptId":"u85"},
     "4d825f195d654142a401a2d673e11c6d":{
-      "scriptId":"u90"},
+      "scriptId":"u86"},
     "e8674b82a8c54261a33f3cee3f032262":{
-      "scriptId":"u91"},
+      "scriptId":"u87"},
     "321f4f324433488c8a325113d629116d":{
-      "scriptId":"u92"},
+      "scriptId":"u88"},
     "28227a5d87df4ea181908f395b0e3acf":{
+      "scriptId":"u89"},
+    "c5906fdad89842529f4d2172077cc84b":{
+      "scriptId":"u90"},
+    "8e9b687e8cf34cb387477d16a49609af":{
+      "scriptId":"u91"},
+    "14a5480e83974fc48b297ffce8588500":{
+      "scriptId":"u92"},
+    "95e8f064911145e8a1a7c13c1e1cbc4b":{
       "scriptId":"u93"}}});

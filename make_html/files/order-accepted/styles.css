@@ -1032,29 +1032,6 @@
 }
 #u78 {
   position:absolute;
-  left:384px;
-  top:597px;
-  width:210px;
-  height:16px;
-  font-family:'Tahoma Обычный', 'Tahoma';
-  color:#FF0080;
-}
-#u78_img {
-  position:absolute;
-  left:-2px;
-  top:-2px;
-  width:214px;
-  height:20px;
-}
-#u79 {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:210px;
-  white-space:nowrap;
-}
-#u80 {
-  position:absolute;
   left:734px;
   top:597px;
   width:140px;
@@ -1063,81 +1040,67 @@
   color:#768FA8;
   text-align:right;
 }
-#u80_img {
+#u78_img {
   position:absolute;
   left:-2px;
   top:-2px;
   width:144px;
   height:20px;
 }
-#u81 {
+#u79 {
   position:absolute;
   left:0px;
   top:0px;
   width:140px;
   white-space:nowrap;
 }
-#u82 {
+#u80 {
   position:absolute;
-  left:389px;
-  top:635px;
-  width:200px;
-  height:25px;
+  left:734px;
+  top:637px;
+  width:21px;
+  height:21px;
 }
-#u82_input {
+#u80_img {
   position:absolute;
   left:0px;
   top:0px;
-  width:200px;
-  height:25px;
-  background-image:url(../../resources/images/transparent.gif);
-  font-family:'Arial Обычный', 'Arial';
-  font-weight:400;
-  font-style:normal;
-  font-size:13px;
-  text-decoration:none;
-  color:#000000;
-  text-align:left;
+  width:21px;
+  height:21px;
 }
-#u82_image_sketch {
+#u81 {
   position:absolute;
-  left:-3px;
-  top:-3px;
-  width:206px;
-  height:31px;
+  left:2px;
+  top:2px;
+  width:17px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u82 {
+  position:absolute;
+  left:764px;
+  top:637px;
+  width:21px;
+  height:21px;
+}
+#u82_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:21px;
+  height:21px;
 }
 #u83 {
   position:absolute;
-  left:566px;
-  top:635px;
-  width:28px;
-  height:25px;
-}
-#u83_input {
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:28px;
-  height:25px;
-  background-image:url(../../resources/images/transparent.gif);
-  font-family:'Arial Обычный', 'Arial';
-  font-weight:400;
-  font-style:normal;
-  font-size:13px;
-  text-decoration:none;
-  color:#000000;
-  text-align:center;
-}
-#u83_image_sketch {
-  position:absolute;
-  left:-3px;
-  top:-3px;
-  width:34px;
-  height:31px;
+  left:2px;
+  top:2px;
+  width:17px;
+  visibility:hidden;
+  word-wrap:break-word;
 }
 #u84 {
   position:absolute;
-  left:734px;
+  left:793px;
   top:637px;
   width:21px;
   height:21px;
@@ -1159,7 +1122,7 @@
 }
 #u86 {
   position:absolute;
-  left:764px;
+  left:823px;
   top:637px;
   width:21px;
   height:21px;
@@ -1181,7 +1144,7 @@
 }
 #u88 {
   position:absolute;
-  left:793px;
+  left:853px;
   top:637px;
   width:21px;
   height:21px;
@@ -1203,45 +1166,82 @@
 }
 #u90 {
   position:absolute;
-  left:823px;
-  top:637px;
-  width:21px;
-  height:21px;
+  left:441px;
+  top:595px;
+  width:100px;
+  height:16px;
+  font-family:'Tahoma Обычный', 'Tahoma';
+  color:#FF0080;
 }
 #u90_img {
   position:absolute;
-  left:0px;
-  top:0px;
-  width:21px;
-  height:21px;
+  left:-2px;
+  top:-2px;
+  width:104px;
+  height:20px;
 }
 #u91 {
   position:absolute;
-  left:2px;
-  top:2px;
-  width:17px;
-  visibility:hidden;
-  word-wrap:break-word;
+  left:0px;
+  top:0px;
+  width:100px;
+  white-space:nowrap;
 }
 #u92 {
   position:absolute;
-  left:853px;
-  top:637px;
-  width:21px;
-  height:21px;
+  left:388px;
+  top:633px;
+  width:200px;
+  height:25px;
 }
-#u92_img {
+#u92_input {
   position:absolute;
   left:0px;
   top:0px;
-  width:21px;
-  height:21px;
+  width:200px;
+  height:25px;
+  background-image:url(../../resources/images/transparent.gif);
+  font-family:'Arial Обычный', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:left;
+}
+#u92_image_sketch {
+  position:absolute;
+  left:-3px;
+  top:-3px;
+  width:206px;
+  height:31px;
 }
 #u93 {
   position:absolute;
-  left:2px;
-  top:2px;
-  width:17px;
-  visibility:hidden;
-  word-wrap:break-word;
+  left:560px;
+  top:633px;
+  width:28px;
+  height:25px;
+}
+#u93_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:28px;
+  height:25px;
+  background-image:url(../../resources/images/transparent.gif);
+  font-family:'Arial Обычный', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:center;
+}
+#u93_image_sketch {
+  position:absolute;
+  left:-3px;
+  top:-3px;
+  width:34px;
+  height:31px;
 }

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"elefan.html",
-  "generationDate":new Date(1409664627802.37),
+  "generationDate":new Date(1409902481654.08),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -2241,78 +2241,6 @@
               "adaptiveStyles":{
 }}]},
 {
-          "id":"81acf8240f684f22801db5f42afc79de",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"paragraph",
-          "visible":true,
-          "style":{
-            "fontName":"'Tahoma Обычный', 'Tahoma'",
-            "foreGroundFill":{
-              "fillType":"solid",
-              "color":0xFF768FA8,
-              "opacity":1},
-            "location":{
-              "x":90,
-              "y":700},
-            "size":{
-              "width":130,
-              "height":20}},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"dd5476c27208446eb26281156adf3f06",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fontName":"'Tahoma Обычный', 'Tahoma'",
-                "foreGroundFill":{
-                  "fillType":"solid",
-                  "color":0xFF768FA8,
-                  "opacity":1},
-                "location":{
-                  "x":90,
-                  "y":700},
-                "size":{
-                  "width":130,
-                  "height":20}},
-              "adaptiveStyles":{
-}}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"Case 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Main Collaction to Previous slide right out 500ms slide right in 500ms",
-                      "panelsToStates":[{
-                          "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
-                          "stateInfo":{
-                            "setStateType":"previous",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "animateOut":{
-                                "easing":"slideRight",
-                                "duration":500},
-                              "animateIn":{
-                                "easing":"slideRight",
-                                "duration":500},
-                              "compress":false}}}]}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
-{
           "id":"19f8df88d1564f46a097920ec4961a17",
           "label":"",
           "type":"buttonShape",
@@ -2320,10 +2248,16 @@
           "visible":true,
           "style":{
             "fontName":"'Tahoma Обычный', 'Tahoma'",
+            "horizontalAlignment":"right",
             "foreGroundFill":{
               "fillType":"solid",
               "color":0xFF768FA8,
               "opacity":1},
+            "stateStyles":{
+              "mouseOver":{
+                "fontWeight":"bold",
+                "fontStyle":"italic",
+                "underline":true}},
             "location":{
               "x":744,
               "y":700},
@@ -2341,10 +2275,16 @@
               "visible":true,
               "style":{
                 "fontName":"'Tahoma Обычный', 'Tahoma'",
+                "horizontalAlignment":"right",
                 "foreGroundFill":{
                   "fillType":"solid",
                   "color":0xFF768FA8,
                   "opacity":1},
+                "stateStyles":{
+                  "mouseOver":{
+                    "fontWeight":"bold",
+                    "fontStyle":"italic",
+                    "underline":true}},
                 "location":{
                   "x":744,
                   "y":700},
@@ -2360,285 +2300,1073 @@
                   "description":"Case 1",
                   "isNewIfGroup":false,
                   "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Main Collaction to Next slide left out 500ms slide left in 500ms",
-                      "panelsToStates":[{
-                          "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
-                          "stateInfo":{
-                            "setStateType":"next",
-                            "stateNumber":1,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "animateOut":{
-                                "easing":"slideLeft",
-                                "duration":500},
-                              "animateIn":{
-                                "easing":"slideLeft",
-                                "duration":500},
-                              "compress":false}}}]}]}]}},
+                      "action":"linkWindow",
+                      "description":"Open Copy of Elefan in Current Window",
+                      "target":{
+                        "targetType":"page",
+                        "url":"copy_of_elefan.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
           "tabbable":true,
           "images":{
-            "normal~":"resources/images/transparent.gif"}},
+            "normal~":"resources/images/transparent.gif",
+            "mouseOver~":"resources/images/transparent.gif"}},
 {
-          "id":"fca5b3210e894b2cbbb98bec36367ba0",
+          "id":"66115ee218a0456eb2422f08be10ea2e",
           "label":"",
-          "type":"buttonShape",
-          "styleType":"paragraph",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
           "visible":true,
           "style":{
-            "fontName":"'Tahoma Bold Oblique', 'Tahoma'",
-            "fontWeight":"700",
-            "fontStyle":"oblique",
-            "underline":true,
-            "foreGroundFill":{
-              "fillType":"solid",
-              "color":0xFF768FA8,
-              "opacity":1},
             "location":{
-              "x":324,
+              "x":334,
               "y":700},
             "size":{
-              "width":60,
-              "height":20}},
+              "width":10,
+              "height":10}},
           "adaptiveStyles":{
 },
-          "objects":[{
-              "id":"c64ef5d266b749a09780f7b099c886b5",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fontName":"'Tahoma Bold Oblique', 'Tahoma'",
-                "fontWeight":"700",
-                "fontStyle":"oblique",
-                "underline":true,
-                "foreGroundFill":{
-                  "fillType":"solid",
-                  "color":0xFF768FA8,
-                  "opacity":1},
-                "location":{
-                  "x":324,
-                  "y":700},
-                "size":{
-                  "width":60,
-                  "height":20}},
-              "adaptiveStyles":{
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"f277161d9efc4c8cae85c7722104244b",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"fca5b3210e894b2cbbb98bec36367ba0",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Bold Oblique', 'Tahoma'",
+                    "fontWeight":"700",
+                    "fontStyle":"oblique",
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "size":{
+                      "width":60,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"c64ef5d266b749a09780f7b099c886b5",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Bold Oblique', 'Tahoma'",
+                        "fontWeight":"700",
+                        "fontStyle":"oblique",
+                        "underline":true,
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "size":{
+                          "width":60,
+                          "height":20}},
+                      "adaptiveStyles":{
 }}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"Case 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Main Collaction to Next slide right out 500ms slide right in 500ms",
-                      "panelsToStates":[{
-                          "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
-                          "stateInfo":{
-                            "setStateType":"next",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "animateOut":{
-                                "easing":"slideRight",
-                                "duration":500},
-                              "animateIn":{
-                                "easing":"slideRight",
-                                "duration":500},
-                              "compress":false}}}]}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next slide right out 500ms slide right in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"slideRight",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"slideRight",
+                                        "duration":500},
+                                      "compress":false}}}]},
 {
-          "id":"f5c8818b5bae4d139f40140e8d598948",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"paragraph",
-          "visible":true,
-          "style":{
-            "fontName":"'Tahoma Обычный', 'Tahoma'",
-            "foreGroundFill":{
-              "fillType":"solid",
-              "color":0xFF768FA8,
-              "opacity":1},
-            "location":{
-              "x":410,
-              "y":700},
-            "size":{
-              "width":90,
-              "height":20}},
-          "adaptiveStyles":{
-},
-          "objects":[{
-              "id":"214325de942147bdad937ca8740778b1",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fontName":"'Tahoma Обычный', 'Tahoma'",
-                "foreGroundFill":{
-                  "fillType":"solid",
-                  "color":0xFF768FA8,
-                  "opacity":1},
-                "location":{
-                  "x":410,
-                  "y":700},
-                "size":{
-                  "width":90,
-                  "height":20}},
-              "adaptiveStyles":{
-}}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"Case 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Main Collaction to Next fade out 900ms fade in 900ms",
-                      "panelsToStates":[{
-                          "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
-                          "stateInfo":{
-                            "setStateType":"next",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "animateOut":{
-                                "easing":"fade",
-                                "duration":900},
-                              "animateIn":{
-                                "easing":"fade",
-                                "duration":900},
-                              "compress":false}}}]}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State1 fade out 500ms fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["66115ee218a0456eb2422f08be10ea2e"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
 {
-          "id":"406305c90b1f430ea756c35f0e9022df",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"paragraph",
-          "visible":true,
-          "style":{
-            "fontName":"'Tahoma Обычный', 'Tahoma'",
-            "foreGroundFill":{
-              "fillType":"solid",
-              "color":0xFF768FA8,
-              "opacity":1},
-            "location":{
-              "x":520,
-              "y":700},
-            "size":{
-              "width":90,
-              "height":20}},
-          "adaptiveStyles":{
+                  "id":"f5c8818b5bae4d139f40140e8d598948",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Обычный', 'Tahoma'",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true}},
+                    "location":{
+                      "x":96,
+                      "y":0},
+                    "size":{
+                      "width":110,
+                      "height":20}},
+                  "adaptiveStyles":{
 },
-          "objects":[{
-              "id":"87600f61400348ac96467ac2339b4da0",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "fontName":"'Tahoma Обычный', 'Tahoma'",
-                "foreGroundFill":{
-                  "fillType":"solid",
-                  "color":0xFF768FA8,
-                  "opacity":1},
-                "location":{
-                  "x":520,
-                  "y":700},
-                "size":{
-                  "width":90,
-                  "height":20}},
-              "adaptiveStyles":{
+                  "objects":[{
+                      "id":"214325de942147bdad937ca8740778b1",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Обычный', 'Tahoma'",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true}},
+                        "location":{
+                          "x":96,
+                          "y":0},
+                        "size":{
+                          "width":110,
+                          "height":20}},
+                      "adaptiveStyles":{
 }}],
-          "interactionMap":{
-            "onClick":{
-              "description":"OnClick",
-              "cases":[{
-                  "description":"Case 1",
-                  "isNewIfGroup":false,
-                  "actions":[{
-                      "action":"setPanelState",
-                      "description":"Set Main Collaction to Next fade out 900ms fade in 900ms",
-                      "panelsToStates":[{
-                          "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
-                          "stateInfo":{
-                            "setStateType":"next",
-                            "stateNumber":2,
-                            "stateValue":{
-                              "exprType":"stringLiteral",
-                              "value":"1",
-                              "stos":[]},
-                            "loop":false,
-                            "showWhenSet":false,
-                            "options":{
-                              "animateOut":{
-                                "easing":"fade",
-                                "duration":900},
-                              "animateIn":{
-                                "easing":"fade",
-                                "duration":900},
-                              "compress":false}}}]}]}]}},
-          "tabbable":true,
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next fade out 900ms fade in 900ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "compress":false}}}]},
 {
-          "id":"d3c9a6cd1c21418b99976a520f6949b3",
-          "label":"",
-          "type":"buttonShape",
-          "styleType":"paragraph",
-          "visible":true,
-          "style":{
-            "location":{
-              "x":332,
-              "y":720},
-            "size":{
-              "width":36,
-              "height":16}},
-          "adaptiveStyles":{
+                              "action":"setWidgetSize",
+                              "description":"Set Size of Panel",
+                              "objectsToResize":[]},
+{
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State2 fade out 500ms fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["66115ee218a0456eb2422f08be10ea2e"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "mouseOver~":"resources/images/transparent.gif"}},
+{
+                  "id":"406305c90b1f430ea756c35f0e9022df",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Обычный', 'Tahoma'",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true},
+                      "mouseDown":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true},
+                      "selected":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true}},
+                    "location":{
+                      "x":216,
+                      "y":0},
+                    "size":{
+                      "width":120,
+                      "height":20}},
+                  "adaptiveStyles":{
 },
-          "objects":[{
-              "id":"d9edfacd1d3d46baa0d80f5d05c28a75",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":332,
-                  "y":720},
-                "size":{
-                  "width":36,
-                  "height":16}},
-              "adaptiveStyles":{
+                  "objects":[{
+                      "id":"87600f61400348ac96467ac2339b4da0",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Обычный', 'Tahoma'",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true},
+                          "mouseDown":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true},
+                          "selected":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true}},
+                        "location":{
+                          "x":216,
+                          "y":0},
+                        "size":{
+                          "width":120,
+                          "height":20}},
+                      "adaptiveStyles":{
 }}],
-          "images":{
-            "normal~":"resources/images/transparent.gif"}},
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next fade out 900ms fade in 900ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State3 fade out 500ms fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["66115ee218a0456eb2422f08be10ea2e"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":3,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "selected~":"resources/images/transparent.gif",
+                    "mouseOver~":"resources/images/transparent.gif",
+                    "mouseDown~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"ff06c9e3447a455eacc3c570d1341c36",
+              "label":"State2",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"05a6321453fb4a57be7600065dd9fef1",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":1,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Обычный', 'Tahoma'",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "size":{
+                      "width":60,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"5c45d2d066f04abaab3fea31c3ca598c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Обычный', 'Tahoma'",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "size":{
+                          "width":60,
+                          "height":20}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next slide right out 500ms slide right in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"slideRight",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"slideRight",
+                                        "duration":500},
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State1 fade out 500ms fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["66115ee218a0456eb2422f08be10ea2e"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"72a01442d3bd4f4fb187472b1f458f0b",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":1,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Bold Oblique', 'Tahoma'",
+                    "fontWeight":"700",
+                    "fontStyle":"oblique",
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true}},
+                    "location":{
+                      "x":96,
+                      "y":0},
+                    "size":{
+                      "width":110,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"8a8089eebe8542f6ba962c79f8076469",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Bold Oblique', 'Tahoma'",
+                        "fontWeight":"700",
+                        "fontStyle":"oblique",
+                        "underline":true,
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true}},
+                        "location":{
+                          "x":96,
+                          "y":0},
+                        "size":{
+                          "width":110,
+                          "height":20}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next fade out 900ms fade in 900ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "compress":false}}}]},
+{
+                              "action":"setWidgetSize",
+                              "description":"Set Size of Panel",
+                              "objectsToResize":[]},
+{
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State2 fade out 500ms fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["66115ee218a0456eb2422f08be10ea2e"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "mouseOver~":"resources/images/transparent.gif"}},
+{
+                  "id":"7af0f28da93c4c6c8d3641fcfb74f964",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":1,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Обычный', 'Tahoma'",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true},
+                      "mouseDown":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true},
+                      "selected":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true}},
+                    "location":{
+                      "x":216,
+                      "y":0},
+                    "size":{
+                      "width":120,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"d991a8017e5a46c4a04f511bbd86eba1",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Обычный', 'Tahoma'",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true},
+                          "mouseDown":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true},
+                          "selected":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true}},
+                        "location":{
+                          "x":216,
+                          "y":0},
+                        "size":{
+                          "width":120,
+                          "height":20}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next fade out 900ms fade in 900ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State3 fade out 500ms fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["66115ee218a0456eb2422f08be10ea2e"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":3,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "selected~":"resources/images/transparent.gif",
+                    "mouseOver~":"resources/images/transparent.gif",
+                    "mouseDown~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"4d36f1d0d1d740ea82baaaf880c7cd97",
+              "label":"State3",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"2a74cf7e435e45baa53c509998085980",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":2,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Обычный', 'Tahoma'",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "size":{
+                      "width":60,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"edb15ccb4b094853ac925a5b31b2502b",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":2,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Обычный', 'Tahoma'",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "size":{
+                          "width":60,
+                          "height":20}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next slide right out 500ms slide right in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"slideRight",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"slideRight",
+                                        "duration":500},
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State1 fade out 500ms fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["66115ee218a0456eb2422f08be10ea2e"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":1,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif"}},
+{
+                  "id":"a451c985435f4eddac3e4ec9e4c71715",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":2,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Обычный', 'Tahoma'",
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true}},
+                    "location":{
+                      "x":96,
+                      "y":0},
+                    "size":{
+                      "width":110,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"ad097407a7154a64a8371216bf375e9a",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":2,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Обычный', 'Tahoma'",
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true}},
+                        "location":{
+                          "x":96,
+                          "y":0},
+                        "size":{
+                          "width":110,
+                          "height":20}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next fade out 900ms fade in 900ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "compress":false}}}]},
+{
+                              "action":"setWidgetSize",
+                              "description":"Set Size of Panel",
+                              "objectsToResize":[]},
+{
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State2 fade out 500ms fade in 500ms",
+                              "panelsToStates":[{
+                                  "panelPath":["66115ee218a0456eb2422f08be10ea2e"],
+                                  "stateInfo":{
+                                    "setStateType":"diagram",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":500},
+                                      "compress":false}}}]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "mouseOver~":"resources/images/transparent.gif"}},
+{
+                  "id":"960c06083cc54dfeb85e50186fd6f19a",
+                  "label":"",
+                  "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                  "panelIndex":2,
+                  "type":"buttonShape",
+                  "styleType":"paragraph",
+                  "visible":true,
+                  "style":{
+                    "fontName":"'Tahoma Bold Oblique', 'Tahoma'",
+                    "fontWeight":"700",
+                    "fontStyle":"oblique",
+                    "underline":true,
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFF0080,
+                      "opacity":1},
+                    "stateStyles":{
+                      "mouseOver":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true},
+                      "mouseDown":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true},
+                      "selected":{
+                        "fontWeight":"bold",
+                        "fontStyle":"italic",
+                        "underline":true}},
+                    "location":{
+                      "x":216,
+                      "y":0},
+                    "size":{
+                      "width":120,
+                      "height":20}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"d47f99fd630242959ec15cee9e39f410",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"66115ee218a0456eb2422f08be10ea2e",
+                      "panelIndex":2,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "fontName":"'Tahoma Bold Oblique', 'Tahoma'",
+                        "fontWeight":"700",
+                        "fontStyle":"oblique",
+                        "underline":true,
+                        "foreGroundFill":{
+                          "fillType":"solid",
+                          "color":0xFFFF0080,
+                          "opacity":1},
+                        "stateStyles":{
+                          "mouseOver":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true},
+                          "mouseDown":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true},
+                          "selected":{
+                            "fontWeight":"bold",
+                            "fontStyle":"italic",
+                            "underline":true}},
+                        "location":{
+                          "x":216,
+                          "y":0},
+                        "size":{
+                          "width":120,
+                          "height":20}},
+                      "adaptiveStyles":{
+}}],
+                  "interactionMap":{
+                    "onClick":{
+                      "description":"OnClick",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"setPanelState",
+                              "description":"Set Main Collaction to Next fade out 900ms fade in 900ms",
+                              "panelsToStates":[{
+                                  "panelPath":["a10ea50b947a479993f76f8bf6ce8fd5"],
+                                  "stateInfo":{
+                                    "setStateType":"next",
+                                    "stateNumber":2,
+                                    "stateValue":{
+                                      "exprType":"stringLiteral",
+                                      "value":"1",
+                                      "stos":[]},
+                                    "loop":false,
+                                    "showWhenSet":false,
+                                    "options":{
+                                      "animateOut":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "animateIn":{
+                                        "easing":"fade",
+                                        "duration":900},
+                                      "compress":false}}}]},
+{
+                              "action":"setPanelState",
+                              "description":"Set (Dynamic Panel) to State",
+                              "panelsToStates":[]}]}]}},
+                  "tabbable":true,
+                  "images":{
+                    "normal~":"resources/images/transparent.gif",
+                    "selected~":"resources/images/transparent.gif",
+                    "mouseOver~":"resources/images/transparent.gif",
+                    "mouseDown~":"resources/images/transparent.gif"}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]},
 {
           "id":"0c08ac4994c1420482d7b0f2cc10e040",
           "label":"",
@@ -2677,7 +3405,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u159.png"}},
+            "normal~":"images/elefan/u168.png"}},
 {
           "id":"479926be0a914d109b2439ce68ec8870",
           "label":"",
@@ -2710,7 +3438,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u161.png"}},
+            "normal~":"images/elefan/u170.png"}},
 {
           "id":"16c24dfbdfd74c8abd5091c70ebf0417",
           "label":"",
@@ -2776,7 +3504,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u161.png"}},
+            "normal~":"images/elefan/u170.png"}},
 {
           "id":"b3d871ef9eaa4e68974ecd0c33de4b8b",
           "label":"",
@@ -2842,7 +3570,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u161.png"}},
+            "normal~":"images/elefan/u170.png"}},
 {
           "id":"88acd7e560ae40fcb5441e6a75c7e2a6",
           "label":"",
@@ -3196,7 +3924,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u185.png"}},
+            "normal~":"images/elefan/u194.png"}},
 {
           "id":"a348f024787a4b418a73d627f6c95b26",
           "label":"",
@@ -3237,7 +3965,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/elefan/u187.png"}},
+            "normal~":"images/elefan/u196.png"}},
 {
           "id":"fac1bda3a20647378a3df6130d0c5b1c",
           "label":"",
@@ -4527,7 +5255,7 @@
             "images":{
               "start~":"resources/images/transparent.gif",
               "end~":"resources/images/transparent.gif",
-              "line~":"images/elefan/u194_line.png"}},
+              "line~":"images/elefan/u203_line.png"}},
 {
             "id":"2c1eacc22d06425b9261c1f8054eac44",
             "label":"",
@@ -4945,7 +5673,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u211.png"}},
+              "normal~":"images/elefan/u220.png"}},
 {
             "id":"00e3ee0e3aa84c7fa457bfe1feab1e2f",
             "label":"",
@@ -4978,7 +5706,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u211.png"}},
+              "normal~":"images/elefan/u220.png"}},
 {
             "id":"6d2d9dbe667543fbb47670b2d492741e",
             "label":"",
@@ -5011,7 +5739,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u211.png"}},
+              "normal~":"images/elefan/u220.png"}},
 {
             "id":"b54b86a03a084da496526bcec9b25f35",
             "label":"",
@@ -5044,7 +5772,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u211.png"}},
+              "normal~":"images/elefan/u220.png"}},
 {
             "id":"b07b6716d51b4d48b55d37847096a921",
             "label":"",
@@ -5058,10 +5786,10 @@
                 "color":0xFFFF0080,
                 "opacity":1},
               "location":{
-                "x":384,
+                "x":447,
                 "y":1420},
               "size":{
-                "width":210,
+                "width":100,
                 "height":16}},
             "adaptiveStyles":{
 },
@@ -5079,10 +5807,10 @@
                     "color":0xFFFF0080,
                     "opacity":1},
                   "location":{
-                    "x":384,
+                    "x":447,
                     "y":1420},
                   "size":{
-                    "width":210,
+                    "width":100,
                     "height":16}},
                 "adaptiveStyles":{
 }}],
@@ -5141,16 +5869,16 @@
             "visible":true,
             "style":{
               "location":{
-                "x":389,
-                "y":1457.5},
+                "x":394.5,
+                "y":1458},
               "size":{
                 "width":200,
                 "height":25}},
             "adaptiveStyles":{
 },
             "images":{
-              "normal~":"images/elefan/u223_image_sketch.png",
-              "disabled~":"images/elefan/u223_disabled.png"}},
+              "normal~":"images/elefan/u232_image_sketch.png",
+              "disabled~":"images/elefan/u232_disabled.png"}},
 {
             "id":"ab41fb740c5b4920914a440eb09288c4",
             "label":"",
@@ -5159,16 +5887,16 @@
             "visible":true,
             "style":{
               "location":{
-                "x":566,
-                "y":1457.5},
+                "x":571.5,
+                "y":1458},
               "size":{
                 "width":28,
                 "height":25}},
             "adaptiveStyles":{
 },
             "images":{
-              "normal~":"images/elefan/u224_image_sketch.png",
-              "disabled~":"images/elefan/u224_disabled.png"}},
+              "normal~":"images/elefan/u233_image_sketch.png",
+              "disabled~":"images/elefan/u233_disabled.png"}},
 {
             "id":"128baf917b584de499be7aa555ada9ac",
             "label":"",
@@ -5201,7 +5929,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u225.png"}},
+              "normal~":"images/elefan/u234.png"}},
 {
             "id":"abec2f9613274a7d988ede16712acfc1",
             "label":"",
@@ -5234,7 +5962,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u225.png"}},
+              "normal~":"images/elefan/u234.png"}},
 {
             "id":"8469fdc94cee4760bf0f3ad6dcbcf3d2",
             "label":"",
@@ -5267,7 +5995,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u225.png"}},
+              "normal~":"images/elefan/u234.png"}},
 {
             "id":"74514e89534745e480d78849f5ebd298",
             "label":"",
@@ -5300,7 +6028,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u225.png"}},
+              "normal~":"images/elefan/u234.png"}},
 {
             "id":"892b7f3c1bd443288cbc7fd3f1e7d465",
             "label":"",
@@ -5333,7 +6061,7 @@
                 "adaptiveStyles":{
 }}],
             "images":{
-              "normal~":"images/elefan/u225.png"}}]}}},
+              "normal~":"images/elefan/u234.png"}}]}}},
   "objectPaths":{
     "8abde7efb3394cf3ba0946099be621f6":{
       "scriptId":"u0",
@@ -5629,179 +6357,197 @@
       "scriptId":"u145"},
     "97ca4cc5a3a0448982836df5d7aee1cc":{
       "scriptId":"u146"},
-    "81acf8240f684f22801db5f42afc79de":{
-      "scriptId":"u147"},
-    "dd5476c27208446eb26281156adf3f06":{
-      "scriptId":"u148"},
     "19f8df88d1564f46a097920ec4961a17":{
-      "scriptId":"u149"},
+      "scriptId":"u147"},
     "519cc29410a2480a8744776b8fcdf53c":{
-      "scriptId":"u150"},
+      "scriptId":"u148"},
+    "66115ee218a0456eb2422f08be10ea2e":{
+      "scriptId":"u149"},
     "fca5b3210e894b2cbbb98bec36367ba0":{
-      "scriptId":"u151"},
+      "scriptId":"u150"},
     "c64ef5d266b749a09780f7b099c886b5":{
-      "scriptId":"u152"},
+      "scriptId":"u151"},
     "f5c8818b5bae4d139f40140e8d598948":{
-      "scriptId":"u153"},
+      "scriptId":"u152"},
     "214325de942147bdad937ca8740778b1":{
-      "scriptId":"u154"},
+      "scriptId":"u153"},
     "406305c90b1f430ea756c35f0e9022df":{
-      "scriptId":"u155"},
+      "scriptId":"u154"},
     "87600f61400348ac96467ac2339b4da0":{
+      "scriptId":"u155"},
+    "05a6321453fb4a57be7600065dd9fef1":{
       "scriptId":"u156"},
-    "d3c9a6cd1c21418b99976a520f6949b3":{
+    "5c45d2d066f04abaab3fea31c3ca598c":{
       "scriptId":"u157"},
-    "d9edfacd1d3d46baa0d80f5d05c28a75":{
+    "72a01442d3bd4f4fb187472b1f458f0b":{
       "scriptId":"u158"},
-    "0c08ac4994c1420482d7b0f2cc10e040":{
+    "8a8089eebe8542f6ba962c79f8076469":{
       "scriptId":"u159"},
-    "78a1f8da74744acebb5861574b7460a6":{
+    "7af0f28da93c4c6c8d3641fcfb74f964":{
       "scriptId":"u160"},
-    "479926be0a914d109b2439ce68ec8870":{
+    "d991a8017e5a46c4a04f511bbd86eba1":{
       "scriptId":"u161"},
-    "1ad26fc812fe4653a20848d3b555fc3a":{
+    "2a74cf7e435e45baa53c509998085980":{
       "scriptId":"u162"},
-    "16c24dfbdfd74c8abd5091c70ebf0417":{
+    "edb15ccb4b094853ac925a5b31b2502b":{
       "scriptId":"u163"},
-    "be1192b274a24ca1bc444d9a2f828263":{
+    "a451c985435f4eddac3e4ec9e4c71715":{
       "scriptId":"u164"},
-    "d35f6a1d9c0f4058ac2749a5fe51d172":{
+    "ad097407a7154a64a8371216bf375e9a":{
       "scriptId":"u165"},
-    "d7b2137ace5446c29959cf1ee060ec00":{
+    "960c06083cc54dfeb85e50186fd6f19a":{
       "scriptId":"u166"},
-    "b3d871ef9eaa4e68974ecd0c33de4b8b":{
+    "d47f99fd630242959ec15cee9e39f410":{
       "scriptId":"u167"},
-    "d9232401f5f940f9a32cb19c360e0fbb":{
+    "0c08ac4994c1420482d7b0f2cc10e040":{
       "scriptId":"u168"},
-    "80c3757e5a2d4e29a043d77452be1d38":{
+    "78a1f8da74744acebb5861574b7460a6":{
       "scriptId":"u169"},
-    "1a75f9985a6441feb3bf821ff237d430":{
+    "479926be0a914d109b2439ce68ec8870":{
       "scriptId":"u170"},
-    "88acd7e560ae40fcb5441e6a75c7e2a6":{
+    "1ad26fc812fe4653a20848d3b555fc3a":{
       "scriptId":"u171"},
-    "1505d8c2ffd442e2b3b1cdf478491725":{
+    "16c24dfbdfd74c8abd5091c70ebf0417":{
       "scriptId":"u172"},
-    "7b4b8f77c49d4c1b8e9dd55db56e841f":{
+    "be1192b274a24ca1bc444d9a2f828263":{
       "scriptId":"u173"},
-    "aaf3e48e87c64b89b8c0c4ce3db0fda3":{
+    "d35f6a1d9c0f4058ac2749a5fe51d172":{
       "scriptId":"u174"},
-    "31ab162c82a94bf098a7716f908faa7d":{
+    "d7b2137ace5446c29959cf1ee060ec00":{
       "scriptId":"u175"},
-    "e5771ec2442a4bf3a3cfa9df15703115":{
+    "b3d871ef9eaa4e68974ecd0c33de4b8b":{
       "scriptId":"u176"},
-    "64c4f1faa8d64dd6b1709286a41c8885":{
+    "d9232401f5f940f9a32cb19c360e0fbb":{
       "scriptId":"u177"},
-    "b69db000afc7420d9160569028854c63":{
+    "80c3757e5a2d4e29a043d77452be1d38":{
       "scriptId":"u178"},
-    "b3d45eb63ce14d5296d942bede4a8223":{
+    "1a75f9985a6441feb3bf821ff237d430":{
       "scriptId":"u179"},
-    "f499995c530d483baec8ba796722bc23":{
+    "88acd7e560ae40fcb5441e6a75c7e2a6":{
       "scriptId":"u180"},
-    "bb48b6c2807349848862cbe99b6d3f6d":{
+    "1505d8c2ffd442e2b3b1cdf478491725":{
       "scriptId":"u181"},
-    "4fad3a0c5e524e01b5e417e541c47154":{
+    "7b4b8f77c49d4c1b8e9dd55db56e841f":{
       "scriptId":"u182"},
-    "7c4ec6c1c8b741cdb78206a9e121f580":{
+    "aaf3e48e87c64b89b8c0c4ce3db0fda3":{
       "scriptId":"u183"},
-    "08fc432f902d42fe98a38f6fe37dae11":{
+    "31ab162c82a94bf098a7716f908faa7d":{
       "scriptId":"u184"},
-    "3089973812134dd993cecae281b628bd":{
+    "e5771ec2442a4bf3a3cfa9df15703115":{
       "scriptId":"u185"},
-    "2887268e9fc441138a131089c10eed30":{
+    "64c4f1faa8d64dd6b1709286a41c8885":{
       "scriptId":"u186"},
-    "a348f024787a4b418a73d627f6c95b26":{
+    "b69db000afc7420d9160569028854c63":{
       "scriptId":"u187"},
-    "3314e5dfb7af4aa3b76f93ae6a97bf45":{
+    "b3d45eb63ce14d5296d942bede4a8223":{
       "scriptId":"u188"},
-    "fac1bda3a20647378a3df6130d0c5b1c":{
+    "f499995c530d483baec8ba796722bc23":{
       "scriptId":"u189"},
-    "7a0075ddcaad44a2b661e93ec73ee971":{
+    "bb48b6c2807349848862cbe99b6d3f6d":{
       "scriptId":"u190"},
-    "c93519067de84907939bd24ce58ec7b2":{
+    "4fad3a0c5e524e01b5e417e541c47154":{
       "scriptId":"u191"},
-    "020d4b457ae04e06a6e6ef987230dab3":{
+    "7c4ec6c1c8b741cdb78206a9e121f580":{
       "scriptId":"u192"},
+    "08fc432f902d42fe98a38f6fe37dae11":{
+      "scriptId":"u193"},
+    "3089973812134dd993cecae281b628bd":{
+      "scriptId":"u194"},
+    "2887268e9fc441138a131089c10eed30":{
+      "scriptId":"u195"},
+    "a348f024787a4b418a73d627f6c95b26":{
+      "scriptId":"u196"},
+    "3314e5dfb7af4aa3b76f93ae6a97bf45":{
+      "scriptId":"u197"},
+    "fac1bda3a20647378a3df6130d0c5b1c":{
+      "scriptId":"u198"},
+    "7a0075ddcaad44a2b661e93ec73ee971":{
+      "scriptId":"u199"},
+    "c93519067de84907939bd24ce58ec7b2":{
+      "scriptId":"u200"},
+    "020d4b457ae04e06a6e6ef987230dab3":{
+      "scriptId":"u201"},
     "da4f640aa6fa47b39c2b3c795bf5f21b":{
-      "scriptId":"u193",
+      "scriptId":"u202",
       "b1b0b8a6b1614fe4adefa6afeb9f7654":{
-        "scriptId":"u194"},
-      "2c1eacc22d06425b9261c1f8054eac44":{
-        "scriptId":"u195"},
-      "1137be7b0dfa48de81789eb988fc3c56":{
-        "scriptId":"u196"},
-      "2f256728abca4bdc9e257a7f82e69239":{
-        "scriptId":"u197"},
-      "1296028ff3ea42ef8a46311c7a7ca77e":{
-        "scriptId":"u198"},
-      "f1b2eb7af9b74068b753fc76088291ae":{
-        "scriptId":"u199"},
-      "b6696d14addd48c6a2dede209b7209ce":{
-        "scriptId":"u200"},
-      "5c60756c8a4c4a28a901d51b67281cf6":{
-        "scriptId":"u201"},
-      "7c9ae06db76145f291c0695ac915b1fb":{
-        "scriptId":"u202"},
-      "7c61452fc67143f6b80cde64aae46c3a":{
         "scriptId":"u203"},
-      "f222802c9c9d41afbe470aeefa83c0f9":{
+      "2c1eacc22d06425b9261c1f8054eac44":{
         "scriptId":"u204"},
-      "2d0c2bcfc7274e198e6404e21fed6964":{
+      "1137be7b0dfa48de81789eb988fc3c56":{
         "scriptId":"u205"},
-      "08c0a6e3b7d147c182676dc9f06d87fd":{
+      "2f256728abca4bdc9e257a7f82e69239":{
         "scriptId":"u206"},
-      "4819caada25b4eb4b689ad20bcd8f10a":{
+      "1296028ff3ea42ef8a46311c7a7ca77e":{
         "scriptId":"u207"},
-      "96c69331382e4da4a90cb1f85b344c98":{
+      "f1b2eb7af9b74068b753fc76088291ae":{
         "scriptId":"u208"},
-      "caf0ba6132a249d3ac50671a9c8685eb":{
+      "b6696d14addd48c6a2dede209b7209ce":{
         "scriptId":"u209"},
-      "36189d7ba0d64cb9a0a07515d496c607":{
+      "5c60756c8a4c4a28a901d51b67281cf6":{
         "scriptId":"u210"},
-      "35e5d18d952c4a3a8917f2cb01780a03":{
+      "7c9ae06db76145f291c0695ac915b1fb":{
         "scriptId":"u211"},
-      "a87253ad42fa45cba6ae39696f4ddcdf":{
+      "7c61452fc67143f6b80cde64aae46c3a":{
         "scriptId":"u212"},
-      "00e3ee0e3aa84c7fa457bfe1feab1e2f":{
+      "f222802c9c9d41afbe470aeefa83c0f9":{
         "scriptId":"u213"},
-      "0d436964b445401cb71d562d7efc67e7":{
+      "2d0c2bcfc7274e198e6404e21fed6964":{
         "scriptId":"u214"},
-      "6d2d9dbe667543fbb47670b2d492741e":{
+      "08c0a6e3b7d147c182676dc9f06d87fd":{
         "scriptId":"u215"},
-      "a33cfb19f46e4c7cbffb06abbacc349a":{
+      "4819caada25b4eb4b689ad20bcd8f10a":{
         "scriptId":"u216"},
-      "b54b86a03a084da496526bcec9b25f35":{
+      "96c69331382e4da4a90cb1f85b344c98":{
         "scriptId":"u217"},
-      "f03721ce13b04231904f6a5b4858b47e":{
+      "caf0ba6132a249d3ac50671a9c8685eb":{
         "scriptId":"u218"},
-      "b07b6716d51b4d48b55d37847096a921":{
+      "36189d7ba0d64cb9a0a07515d496c607":{
         "scriptId":"u219"},
-      "2e6ff2e6cac447399e5b6ed95dabd027":{
+      "35e5d18d952c4a3a8917f2cb01780a03":{
         "scriptId":"u220"},
-      "da588011bb8a43359bb12ddd62312d4a":{
+      "a87253ad42fa45cba6ae39696f4ddcdf":{
         "scriptId":"u221"},
-      "a270eefe6857466c80339eb0e42fb992":{
+      "00e3ee0e3aa84c7fa457bfe1feab1e2f":{
         "scriptId":"u222"},
-      "da2e74a80a454edbbb2506211e775856":{
+      "0d436964b445401cb71d562d7efc67e7":{
         "scriptId":"u223"},
-      "ab41fb740c5b4920914a440eb09288c4":{
+      "6d2d9dbe667543fbb47670b2d492741e":{
         "scriptId":"u224"},
-      "128baf917b584de499be7aa555ada9ac":{
+      "a33cfb19f46e4c7cbffb06abbacc349a":{
         "scriptId":"u225"},
-      "e6ad43b1a2de48cb8b789ce9159d2e86":{
+      "b54b86a03a084da496526bcec9b25f35":{
         "scriptId":"u226"},
-      "abec2f9613274a7d988ede16712acfc1":{
+      "f03721ce13b04231904f6a5b4858b47e":{
         "scriptId":"u227"},
-      "ec904bf1c6cc4eeda6bfb3249ab01e45":{
+      "b07b6716d51b4d48b55d37847096a921":{
         "scriptId":"u228"},
-      "8469fdc94cee4760bf0f3ad6dcbcf3d2":{
+      "2e6ff2e6cac447399e5b6ed95dabd027":{
         "scriptId":"u229"},
-      "0f3c1832c4124ca38cfa4ceaff3d77ae":{
+      "da588011bb8a43359bb12ddd62312d4a":{
         "scriptId":"u230"},
-      "74514e89534745e480d78849f5ebd298":{
+      "a270eefe6857466c80339eb0e42fb992":{
         "scriptId":"u231"},
-      "fd6f4aa900d94e6583f1399a95c4d065":{
+      "da2e74a80a454edbbb2506211e775856":{
         "scriptId":"u232"},
-      "892b7f3c1bd443288cbc7fd3f1e7d465":{
+      "ab41fb740c5b4920914a440eb09288c4":{
         "scriptId":"u233"},
+      "128baf917b584de499be7aa555ada9ac":{
+        "scriptId":"u234"},
+      "e6ad43b1a2de48cb8b789ce9159d2e86":{
+        "scriptId":"u235"},
+      "abec2f9613274a7d988ede16712acfc1":{
+        "scriptId":"u236"},
+      "ec904bf1c6cc4eeda6bfb3249ab01e45":{
+        "scriptId":"u237"},
+      "8469fdc94cee4760bf0f3ad6dcbcf3d2":{
+        "scriptId":"u238"},
+      "0f3c1832c4124ca38cfa4ceaff3d77ae":{
+        "scriptId":"u239"},
+      "74514e89534745e480d78849f5ebd298":{
+        "scriptId":"u240"},
+      "fd6f4aa900d94e6583f1399a95c4d065":{
+        "scriptId":"u241"},
+      "892b7f3c1bd443288cbc7fd3f1e7d465":{
+        "scriptId":"u242"},
       "94c40365c1744c1fab4f11fd87ccc073":{
-        "scriptId":"u234"}}}});
+        "scriptId":"u243"}}}});

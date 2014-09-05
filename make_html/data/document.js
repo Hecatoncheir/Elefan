@@ -17,6 +17,10 @@
         "type":"Wireframe",
         "url":"elefan.html",
         "children":[{
+            "pageName":"Copy of Elefan",
+            "type":"Wireframe",
+            "url":"copy_of_elefan.html"},
+{
             "pageName":"About",
             "type":"Wireframe",
             "url":"about.html"},

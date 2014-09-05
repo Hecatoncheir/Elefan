@@ -1181,9 +1181,9 @@
 }
 #u89 {
   position:absolute;
-  left:384px;
+  left:447px;
   top:1420px;
-  width:210px;
+  width:100px;
   height:16px;
   font-family:'Tahoma Обычный', 'Tahoma';
   color:#FF0080;
@@ -1192,14 +1192,14 @@
   position:absolute;
   left:-2px;
   top:-2px;
-  width:214px;
+  width:104px;
   height:20px;
 }
 #u90 {
   position:absolute;
   left:0px;
   top:0px;
-  width:210px;
+  width:100px;
   white-space:nowrap;
 }
 #u91 {
@@ -1228,7 +1228,7 @@
 }
 #u93 {
   position:absolute;
-  left:389px;
+  left:394px;
   top:1458px;
   width:200px;
   height:25px;
@@ -1257,7 +1257,7 @@
 }
 #u94 {
   position:absolute;
-  left:566px;
+  left:572px;
   top:1458px;
   width:28px;
   height:25px;
