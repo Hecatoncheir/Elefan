@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"order-accepted.html",
-  "generationDate":new Date(1409910100018.91),
+  "generationDate":new Date(1409920807834.63),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -2451,10 +2451,10 @@
                     "isNewIfGroup":false,
                     "actions":[{
                         "action":"linkWindow",
-                        "description":"Open Contacts in Current Window",
+                        "description":"Open item status in Current Window",
                         "target":{
                           "targetType":"page",
-                          "url":"contacts.html",
+                          "url":"item_status.html",
                           "includeVariables":true},
                         "linkType":"current"}]}]}},
             "tabbable":true,

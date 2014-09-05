@@ -29,6 +29,10 @@
             "type":"Wireframe",
             "url":"payment.html"},
 {
+            "pageName":"item status",
+            "type":"Wireframe",
+            "url":"item_status.html"},
+{
             "pageName":"Contacts",
             "type":"Wireframe",
             "url":"contacts.html"},
