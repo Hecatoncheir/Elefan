@@ -1,0 +1,577 @@
+/*BLACK*/
+@font-face {
+  font-family: 'pf_beausans_pro_black';
+  src: url("../fonts/black/pfbeausanspro-black-webfont.eot");
+  src: url("../fonts/black/pfbeausanspro-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/black/pfbeausanspro-black-webfont.woff") format("woff"), url("../fonts/black/pfbeausanspro-black-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pf_beausans_pro_black-ital';
+  src: url("../fonts/black/pfbeausanspro-blackital-webfont.eot");
+  src: url("../fonts/black/pfbeausanspro-blackital-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/black/pfbeausanspro-blackital-webfont.woff") format("woff"), url("../fonts/black/pfbeausanspro-blackital-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+/*BOOK*/
+@font-face {
+  font-family: 'pf_beausans_pro_book';
+  src: url("../fonts/book/pfbeausanspro-book-webfont.eot");
+  src: url("../fonts/book/pfbeausanspro-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/book/pfbeausanspro-book-webfont.woff") format("woff"), url("../fonts/book/pfbeausanspro-book-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pf_beausans_pro_book-ital';
+  src: url("../fonts/book/pfbeausanspro-bookitalic-webfont.eot");
+  src: url("../fonts/book/pfbeausanspro-bookitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/book/pfbeausanspro-bookitalic-webfont.woff") format("woff"), url("../fonts/book/pfbeausanspro-bookitalic-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+/*ITALIC*/
+@font-face {
+  font-family: 'pf_beausans_pro_italic';
+  src: url("../fonts/italic/pfbeausanspro-italic-webfont.eot");
+  src: url("../fonts/italic/pfbeausanspro-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/italic/pfbeausanspro-italic-webfont.woff") format("woff"), url("../fonts/italic/pfbeausanspro-italic-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+/*BOLD*/
+@font-face {
+  font-family: 'pf_beausans_pro_bold';
+  src: url("../fonts/bold/pfbeausanspro-bold-webfont.eot");
+  src: url("../fonts/bold/pfbeausanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bold/pfbeausanspro-bold-webfont.woff") format("woff"), url("../fonts/bold/pfbeausanspro-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'pf_beausans_pro_bold-ital';
+  src: url("../fonts/bold/pfbeausanspro-bolditalic-webfont.eot");
+  src: url("../fonts/bold/pfbeausanspro-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bold/pfbeausanspro-bolditalic-webfont.woff") format("woff"), url("../fonts/bold/pfbeausanspro-bolditalic-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+/*LIGHT*/
+@font-face {
+  font-family: 'pf_beausans_pro_light';
+  src: url("../fonts/light/pfbeausanspro-light-webfont.eot");
+  src: url("../fonts/light/pfbeausanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/light/pfbeausanspro-light-webfont.woff") format("woff"), url("../fonts/light/pfbeausanspro-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pf_beausans_pro_light-ital';
+  src: url("../fonts/light/pfbeausanspro-lightital-webfont.eot");
+  src: url("../fonts/light/pfbeausanspro-lightital-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/light/pfbeausanspro-lightital-webfont.woff") format("woff"), url("../fonts/light/pfbeausanspro-lightital-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+/*SEBOLD*/
+@font-face {
+  font-family: 'pf_beausans_pro_sebold';
+  src: url("../fonts/sebold/pfbeausanspro-sebold-webfont.eot");
+  src: url("../fonts/sebold/pfbeausanspro-sebold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sebold/pfbeausanspro-sebold-webfont.woff") format("woff"), url("../fonts/sebold/pfbeausanspro-sebold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'pf_beausans_pro_sebold-ital';
+  src: url("../fonts/sebold/pfbeausanspro-seboldital-webfont.eot");
+  src: url("../fonts/sebold/pfbeausanspro-seboldital-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sebold/pfbeausanspro-seboldital-webfont.woff") format("woff"), url("../fonts/sebold/pfbeausanspro-seboldital-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+/*REGULAR*/
+@font-face {
+  font-family: 'pf_beausans_pro_reg';
+  src: url("../fonts/reg/pfbeausanspro-reg-webfont.eot");
+  src: url("../fonts/reg/pfbeausanspro-reg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/reg/pfbeausanspro-reg-webfont.woff") format("woff"), url("../fonts/reg/pfbeausanspro-reg-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/*THIN*/
+@font-face {
+  font-family: 'pf_beausans_pro_thin';
+  src: url("../fonts/thin/pfbeausanspro-thin-webfont.eot");
+  src: url("../fonts/thin/pfbeausanspro-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/thin/pfbeausanspro-thin-webfont.woff") format("woff"), url("../fonts/thin/pfbeausanspro-thin-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pf_beausans_pro_thin-ital';
+  src: url("../fonts/thin/pfbeausanspro-thinital-webfont.eot");
+  src: url("../fonts/thin/pfbeausanspro-thinital-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/thin/pfbeausanspro-thinital-webfont.woff") format("woff"), url("../fonts/thin/pfbeausanspro-thinital-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+/*XTHIN*/
+@font-face {
+  font-family: 'pf_beausans_pro_xthin';
+  src: url("../fonts/xthin/pfbeausanspro-xthin-webfont.eot");
+  src: url("../fonts/xthin/pfbeausanspro-xthin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/xthin/pfbeausanspro-xthin-webfont.woff") format("woff"), url("../fonts/xthin/pfbeausanspro-xthin-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pf_beausans_pro_xthin-ital';
+  src: url("../fonts/xthin/pfbeausanspro-xthinital-webfont.eot");
+  src: url("../fonts/xthin/pfbeausanspro-xthinital-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/xthin/pfbeausanspro-xthinital-webfont.woff") format("woff"), url("../fonts/xthin/pfbeausanspro-xthinital-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Remove margin
+ */
+figure {
+  margin: 0; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/* Blockquote
+   ========================================================================== */
+blockquote {
+  margin: 0; }
+
+.basket-icon {
+  display: block;
+  width: 36px;
+  height: 31px;
+  background: url("../images/basket-icon.png"); }
+
+.search-icon {
+  background: url("../images/search-icon.png") no-repeat;
+  width: 18px;
+  height: 18px;
+  outline: none;
+  border: none; }
+
+.call-request-icon {
+  background: url("../images/call-request-icon.png") no-repeat;
+  width: 15px;
+  height: 15px; }
+
+.search {
+  position: relative; }
+
+.search-input {
+  outline: none;
+  width: 100%;
+  height: 28px;
+  display: block;
+  background: #fff;
+  border: 2px solid #d9e2ec;
+  border-radius: 16px;
+  padding: 1px 6px;
+  padding-right: 16px; }
+
+.search-submit {
+  position: absolute;
+  top: 8px;
+  right: -16px; }
+
+.extended-placeholder-style {
+  color: #c7d2dd;
+  font-family: pf_beausans_pro_book-ital;
+  font-style: italic;
+  font-size: 1.125em; }
+
+.search-input::-moz-placeholder {
+  color: #c7d2dd;
+  font-family: pf_beausans_pro_book-ital;
+  font-style: italic;
+  font-size: 1.125em; }
+
+.search-input::-webkit-input-placeholder {
+  color: #c7d2dd;
+  font-family: pf_beausans_pro_book-ital;
+  font-style: italic;
+  font-size: 1.125em; }
+
+header {
+  margin: 0 auto;
+  margin-top: -15px;
+  width: 990px;
+  position: relative; }
+
+h1 {
+  color: #f14472;
+  font-family: pf_beausans_pro_black-ital;
+  font-size: 2.75em;
+  font-style: italic;
+  text-align: center; }
+
+hgroup {
+  position: relative; }
+
+hgroup span {
+  right: 0;
+  color: #a8b8c7;
+  font-family: pf_beausans_pro_book-ital;
+  font-size: 0.875em;
+  font-style: italic;
+  margin-top: 25px;
+  position: absolute;
+  text-align: right;
+  text-transform: uppercase; }
+
+.main-navigation {
+  font-family: pf_beausans_pro_light;
+  font-size: 1.125em;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -15px;
+  text-align: center; }
+
+.main-navigation a {
+  color: #768fa8;
+  margin-right: 40px;
+  margin-left: -10px;
+  text-decoration: none; }
+
+.main-navigation a:last-child {
+  margin-right: 0; }
+
+.main-navigation a:hover {
+  color: #f14472; }
+
+.shop-basket {
+  display: block;
+  height: 35px;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 19.53125%;
+  line-height: 18px;
+  font-family: pf_beausans_pro_book-ital;
+  font-style: italic;
+  color: #f14472; }
+  .shop-basket i {
+    float: left;
+    margin-right: 10px;
+    margin-top: 2px; }
+  .shop-basket span {
+    color: #a8b8c7;
+    text-transform: uppercase;
+    font-size: 1.0625em; }
+
+.header-search {
+  width: 15.625%;
+  margin: 0 auto;
+  margin-left: 405px;
+  margin-top: 30px; }
+
+body {
+  background: #fff url("../images/line-repeat-x.jpg") repeat-x;
+  min-height: 30px;
+  font-family: pf_beausans_pro_reg; }
+
+/*# sourceMappingURL=main.css.map */

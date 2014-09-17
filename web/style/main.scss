@@ -1,6 +1,12 @@
 //sass --watch web/style/main.scss:web/style/main.css --style compressed
 
-$h1-color: #f14472;
+$color-ceres: #f14472;
+$color-ceres-dark: #ca4179;
+$color-light-gray: #d9e2ec;
+$color-gray: #c7d2dd;
+$color-anothe-gray: #a8b8c7;
+$color-dark-gray: #768fa8;
+$color-text-gray: #5d758c;
 
 //Helpers
 $base-font-size: 16;
@@ -11,9 +17,10 @@ $template-width: 1024;
 
 //Components
 
-$pesticide-debug: true;
 //$pesticide-debug: false;
-@import "components/pesticide";
+//@import "components/pesticide";
+@import "components/icons";
+@import "components/search";
 
 //Layout
 @import "layout/header";
@@ -25,6 +32,5 @@ body {
   background: #fff url("../images/line-repeat-x.jpg") repeat-x;
   min-height: 30px;
   font-family: pf_beausans_pro_reg;
-  font-size: em(1);
-  padding-top: 15px;
+//  padding-top: 15px;
 }
