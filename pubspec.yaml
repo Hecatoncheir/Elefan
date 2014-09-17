@@ -1,0 +1,9 @@
+name: Elefan
+
+dependencies:
+  browser: any
+  sass: any
+  
+transformers:
+  - sass:
+      style: compact
