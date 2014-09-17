@@ -1,2 +1,18 @@
 //sass --watch web/style/main.scss:web/style/main.css --style compressed
 
+//Helpers
+$base-font-size: 16;
+$template-width: 1024;
+@import "helpers/functions";
+@import "helpers/fonts";
+
+//Components
+$pesticide-debug: falce;
+@import "components/pesticide";
+
+//Layout
+@import "layout/header";
+
+//Pages
+@import "pages/main_page";
+
