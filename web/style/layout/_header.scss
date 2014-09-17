@@ -1,0 +1,18 @@
+header {
+  width: 990px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  font-family: pf_beausans_pro_black-ital;
+  font-size:44px;
+  color: $h1-color;
+}
+
+.shop-basket {
+  display: block;
+  height: 35px;
+//  width: 200px;
+  width: percent(200);
+}

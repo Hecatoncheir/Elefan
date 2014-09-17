@@ -1,13 +1,18 @@
 //sass --watch web/style/main.scss:web/style/main.css --style compressed
 
+$h1-color: #f14472;
+
 //Helpers
 $base-font-size: 16;
 $template-width: 1024;
 @import "helpers/functions";
 @import "helpers/fonts";
+@import "helpers/normalize";
 
 //Components
-$pesticide-debug: falce;
+
+$pesticide-debug: true;
+//$pesticide-debug: false;
 @import "components/pesticide";
 
 //Layout
@@ -16,3 +21,10 @@ $pesticide-debug: falce;
 //Pages
 @import "pages/main_page";
 
+body {
+  background: #fff url("../images/line-repeat-x.jpg") repeat-x;
+  min-height: 30px;
+  font-family: pf_beausans_pro_reg;
+  font-size: em(1);
+  padding-top: 15px;
+}
