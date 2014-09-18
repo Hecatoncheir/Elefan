@@ -1,0 +1,109 @@
+.active {
+  color: #fff;
+  background: $color-ceres;
+  position: relative;
+}
+//=========== end Extends =========
+
+.category-navigation {
+  height: 190px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.navigation-line {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: 56px;
+  min-height: 56px;
+  z-index: -1;
+  background: $color-light-gray;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 13px;
+}
+
+.category-navigation {
+  a {
+    float: left;
+    display: block;
+    z-index: 2;
+    text-align: center;
+    color: $color-text-gray;
+  }
+
+  .category {
+    width: 173px;
+    height: 191px;
+    margin-top: -2px;
+    span{
+      min-height: 48px;
+      margin-top: 123px;
+      display: block;
+      padding-bottom: 0;
+      border-radius: 3px;
+      font-size: em(17);
+      font-family: pf_beausans_pro_book-ital;
+//      line-height: 17px;
+      font-style: italic;
+      transition: all 200ms;
+    }
+  }
+
+
+  .category:hover {
+    span { @extend .active;}
+  }
+
+  .active-category {
+    span { @extend .active;}
+    span:after{
+      content: '';
+      display: block;
+      width: 59px;
+      height: 8px;
+      position: absolute;
+      bottom: -8px;
+      left: 173 - 120px;
+      background: url("../images/active-category-arrow.png") no-repeat;
+    }
+  }
+
+//  Icons
+  .home-icon {
+    position: absolute;
+    bottom: 29px;
+    left: 21px;
+  }
+
+  .home-icon:hover{opacity: 0.5}
+
+  .arrow-icon {
+    position: absolute;
+    z-index: 2;
+    left: 54px;
+    bottom: 37px;
+  }
+}
+
+.blankets-pillows-covers {
+  margin-left: 70px;
+  margin-right: 167px;
+  background: url("../images/category-blankets-pillows.jpg") no-repeat;
+
+  span{padding: 7px 0;}
+}
+
+.bedclothes {
+  background: url("../images/category-bedclothes.jpg") no-repeat;
+  margin-right: 169px;
+  span {line-height: 56px;}
+}
+
+.blankets-bedspreads {
+  background: url("../images/category-blankets-bedspreads.jpg") no-repeat;
+  span {line-height: 56px;}
+}
