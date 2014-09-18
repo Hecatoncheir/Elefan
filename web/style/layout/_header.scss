@@ -104,8 +104,8 @@ hgroup span {
   width: 196px;
   display: block;
   position: absolute;
-  right: -4px;
-  top: 60px;
+  right: -5px;
+  top: 61px;
   color: $color-ceres;
   font-family: pf_beausans_pro_reg;
   font-size: em(16);
@@ -115,8 +115,14 @@ hgroup span {
 
   i {
     float: left;
-    margin: 4px 25px 0 14px;
+    margin: 2px 25px 0 14px;
   }
+
+
+  .call-request-icon {
+    margin-left: 12px;
+  }
+
 }
 
 .call-request{
