@@ -454,9 +454,14 @@ blockquote {
   outline: none;
   border: none; }
 
+.phone-icon {
+  background: url("../images/phone-icon.png") no-repeat;
+  width: 15px;
+  height: 15px; }
+
 .call-request-icon {
   background: url("../images/call-request-icon.png") no-repeat;
-  width: 15px;
+  width: 16px;
   height: 15px; }
 
 .search {
@@ -477,12 +482,6 @@ blockquote {
   position: absolute;
   top: 8px;
   right: -16px; }
-
-.extended-placeholder-style {
-  color: #c7d2dd;
-  font-family: pf_beausans_pro_book-ital;
-  font-style: italic;
-  font-size: 1.125em; }
 
 .search-input::-moz-placeholder {
   color: #c7d2dd;
@@ -562,6 +561,10 @@ hgroup span {
     color: #a8b8c7;
     text-transform: uppercase;
     font-size: 1.0625em; }
+  .shop-basket a {
+    color: #f14472; }
+  .shop-basket a:hover {
+    color: #ca4179; }
 
 .header-search {
   width: 15.625%;
@@ -569,9 +572,38 @@ hgroup span {
   margin-left: 405px;
   margin-top: 30px; }
 
+.telephone {
+  background: url("../images/telephone-background.png") no-repeat top center;
+  width: 196px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  color: #f14472;
+  font-family: pf_beausans_pro_reg;
+  font-size: 1em;
+  padding-top: 8px; }
+  .telephone a {
+    color: #fff; }
+  .telephone i {
+    float: left;
+    margin: 4px 25px 0 14px; }
+
+.call-request {
+  clear: both;
+  margin-top: 10px; }
+  .call-request .open-form {
+    margin-left: -8px;
+    margin-top: 2px;
+    float: left;
+    cursor: pointer; }
+
 body {
   background: #fff url("../images/line-repeat-x.jpg") repeat-x;
   min-height: 30px;
   font-family: pf_beausans_pro_reg; }
+
+a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

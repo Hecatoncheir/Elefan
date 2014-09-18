@@ -16,8 +16,6 @@ $template-width: 1024;
 @import "helpers/normalize";
 
 //Components
-
-//$pesticide-debug: false;
 //@import "components/pesticide";
 @import "components/icons";
 @import "components/search";
@@ -34,3 +32,5 @@ body {
   font-family: pf_beausans_pro_reg;
 //  padding-top: 15px;
 }
+
+a{text-decoration: none}

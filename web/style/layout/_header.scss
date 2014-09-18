@@ -82,6 +82,12 @@ hgroup span {
     font-size: em(17);
   }
 
+  a {
+    color: $color-ceres;
+  }
+
+  a:hover {color: $color-ceres-dark}
+
 }
 
 .header-search {
@@ -91,3 +97,33 @@ hgroup span {
   margin-top: 30px;
 }
 
+.telephone {
+  background: url("../images/telephone-background.png") no-repeat top center;
+  width: 196px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  color: $color-ceres;
+  font-family: pf_beausans_pro_reg;
+  font-size: em(16);
+  padding-top: 8px;
+
+  a { color: #fff;}
+
+  i {
+    float: left;
+    margin: 4px 25px 0 14px;
+  }
+}
+
+.call-request{
+  clear: both;
+  margin-top: 10px;
+  .open-form {
+    margin-left: -8px;
+    margin-top: 2px;
+    float: left;
+    cursor: pointer;
+  }
+}
