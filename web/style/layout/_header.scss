@@ -1,7 +1,7 @@
 header {
   margin: 0 auto;
 
-  margin-top: -15px;
+  margin-top: -11px;
   width: 990px;
 
   position: relative;
@@ -27,7 +27,7 @@ hgroup span {
   font-family: pf_beausans_pro_book-ital;
   font-size: em(14);
   font-style: italic;
-  margin-top: 25px;
+  margin-top: 20px;
   position: absolute;
   text-align: right;
   text-transform: uppercase;
@@ -40,14 +40,14 @@ hgroup span {
   width: 90%;
   margin: 0 auto;
 //  margin-left: -10px;
-  margin-top: -15px;
+  margin-top: -20px;
   text-align: center;
 }
 
 .main-navigation a {
   color: $color-dark-gray;
   margin-right: 40px;
-  margin-left: -10px;
+  margin-left: -8px;
   text-decoration: none;
 }
 
@@ -64,17 +64,18 @@ hgroup span {
   display: block;
   height: 35px;
   position: absolute;
-  left: 0;
-  top: 60px;
+  left: 12px;
+  top: 50px;
   //  width: 200px;
   width: percent(200);
   line-height: 18px;
+  padding-top: 3px;
 
   font-family: pf_beausans_pro_book-ital;
   font-style: italic;
   color: $color-ceres;
 
-  i {float: left; margin-right: 10px; margin-top: 2px;}
+  i {float: left; margin-right: 14px; margin-top: 2px;}
 
   span{
     color: $color-anothe-gray;
@@ -102,8 +103,8 @@ hgroup span {
   width: 196px;
   display: block;
   position: absolute;
-  right: 0;
-  top: 64px;
+  right: -4px;
+  top: 60px;
   color: $color-ceres;
   font-family: pf_beausans_pro_reg;
   font-size: em(16);
@@ -119,9 +120,9 @@ hgroup span {
 
 .call-request{
   clear: both;
-  margin-top: 10px;
+  margin-top: 15px;
   .open-form {
-    margin-left: -8px;
+    margin-left: -6px;
     margin-top: 2px;
     float: left;
     cursor: pointer;
