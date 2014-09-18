@@ -11,12 +11,12 @@ $color-text-gray: #5d758c;
 //Helpers
 $base-font-size: 16;
 $template-width: 1024;
+//@import "helpers/pesticide";
 @import "helpers/functions";
 @import "helpers/fonts";
 @import "helpers/normalize";
 
 //Components
-//@import "components/pesticide";
 @import "components/icons";
 @import "components/search";
 
