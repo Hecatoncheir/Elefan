@@ -1,0 +1,27 @@
+@import "../components/last_seen";
+@import "../components/status_check";
+@import "../components/social";
+
+.pre-footer {
+  padding-top: 35px;
+  @extend .wrap-width-center;
+
+  h4 {
+    color: $color-dark-gray;
+    font-family: pf_beausans_pro_light-ital;
+    font-style: italic;
+    font-size: 18px;
+  }
+}
+
+.last-seen {
+  margin-top: 60px;
+  float: left;
+  h4{margin-top: -1px;}
+}
+
+.status-check {
+  display: block;
+  float: left;
+  margin-left: 50px;
+}

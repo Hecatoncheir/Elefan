@@ -63,6 +63,13 @@
   display: block;
 }
 
+.check-send-icon {
+  display: block;
+  background: url("../images/status-check-icon.jpg") no-repeat !important;
+  width: 23px;
+  height: 16px;
+}
+
 //ITEMS ============================================================
 .group-icon {
   background: url("../images/item-group-icons.png") no-repeat;
@@ -93,6 +100,19 @@
 }
 
 .infMoscow-icon {background-position: left top;}
+.infPayment-icon {background-position: left center}
+.infCourier-icon {background-position: left bottom}
+//=============================^=^=^=================================
+
+//SOCIAL ICONS ================================================
+.social-icons {
+  display: block;
+  height: 30px;
+  width: 40px;
+  background: url("../images/soc-icons.jpg") no-repeat;
+}
+
+.soc-vkontacte-icon {background-position: center top;}
 .infPayment-icon {background-position: left center}
 .infCourier-icon {background-position: left bottom}
 //=============================^=^=^=================================

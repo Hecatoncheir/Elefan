@@ -1,0 +1,29 @@
+.status-check {
+  width: 344px;
+  position: relative;
+
+  h4 {
+    color: $color-ceres-dark !important;
+    text-align: center;
+    margin-left: -50px;
+  }
+
+  .input-status-check {
+    @extend .main-input;
+    height: 25px;
+    margin-top: -3px;
+    width: 250px;
+    padding-right: 44px;
+    margin-left: -5px;
+  }
+
+  input[type=submit]{
+    @extend .main-input;
+    border: none;
+    display: block;
+    position: absolute;
+    right: 55px;
+    top: 74px;
+  }
+
+}

@@ -140,30 +140,8 @@
     font-family: pf_beausans_pro_book-ital;
     font-size: em(16);
     font-style: italic;
-    font-weight: normal;
     padding-bottom: 22px;
   }
 
-
-}
-
-.Up {
-  clear: both;
-  text-align: center;
-  margin-top: 35px;
-  padding-top: 15px;
-  color: $color-dark-gray;
-  font-family: pf_beausans_pro_light;
-  text-transform: uppercase;
-  text-decoration: underline;
-  font-size: em(14);
-
-  i{
-    margin: 0 auto;
-    transform: rotate(-90deg);
-    margin-top: -18px;
-  }
-
-  i:last-child {margin-bottom: 8px;}
 
 }

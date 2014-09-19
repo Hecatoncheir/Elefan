@@ -1,0 +1,22 @@
+.Up {
+  clear: both;
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 15px;
+  font-family: pf_beausans_pro_light;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: em(14);
+
+  a {color: $color-dark-gray;}
+  a:hover{color: $color-ceres-dark;}
+
+  i{
+    margin: 0 auto;
+    transform: rotate(-90deg);
+    margin-top: -18px;
+  }
+
+  i:last-child {margin-bottom: 8px;}
+
+}

@@ -14,6 +14,14 @@ $color-text-gray: #5d758c;
   margin: 0 auto;
 }
 
+.main-input {
+  border: 2px solid $color-light-gray;
+  background: #fff;
+  outline: none;
+  border-radius: 14px;
+  padding: 1px 6px;
+}
+
 //======== END EXTENDS =========
 
 //Helpers
@@ -32,7 +40,8 @@ $template-width: 1024;
 @import "layout/header";
 @import "layout/category_navigation";
 @import "layout/collections";
-@import "layout/main-information";
+@import "layout/main_information";
+@import "layout/up";
 @import "layout/pre_footer";
 
 //Pages
@@ -49,3 +58,19 @@ body {
 a{text-decoration: none}
 
 section {clear: both}
+
+input::-moz-placeholder {
+  //  @extend .extended-placeholder-style;
+  color: $color-gray;
+  font-family: pf_beausans_pro_book-ital;
+  font-style: italic;
+  font-size: em(18);
+}
+
+input::-webkit-input-placeholder{
+  //  @extend .extended-placeholder-style;
+  color: $color-gray;
+  font-family: pf_beausans_pro_book-ital;
+  font-style: italic;
+  font-size: em(18);
+}

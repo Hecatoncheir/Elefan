@@ -2,15 +2,10 @@
   position: relative;}
 
 .search-input {
-  outline: none;
+  @extend .main-input;
   width: 100%;
   height: 24px;
   display: block;
-  background: #fff;
-  border: 2px solid $color-light-gray;
-
-  border-radius: 14px;
-  padding: 1px 6px;
   padding-right: 16px;
 }
 
@@ -27,18 +22,18 @@
 //  font-size: em(18);
 //}
 
-.search-input::-moz-placeholder {
-//  @extend .extended-placeholder-style;
-  color: $color-gray;
-  font-family: pf_beausans_pro_book-ital;
-  font-style: italic;
-  font-size: em(18);
-}
-
-.search-input::-webkit-input-placeholder{
-//  @extend .extended-placeholder-style;
-  color: $color-gray;
-  font-family: pf_beausans_pro_book-ital;
-  font-style: italic;
-  font-size: em(18);
-}
+//.search-input::-moz-placeholder {
+////  @extend .extended-placeholder-style;
+//  color: $color-gray;
+//  font-family: pf_beausans_pro_book-ital;
+//  font-style: italic;
+//  font-size: em(18);
+//}
+//
+//.search-input::-webkit-input-placeholder{
+////  @extend .extended-placeholder-style;
+//  color: $color-gray;
+//  font-family: pf_beausans_pro_book-ital;
+//  font-style: italic;
+//  font-size: em(18);
+//}
