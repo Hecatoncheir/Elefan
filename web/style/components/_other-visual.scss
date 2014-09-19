@@ -1,0 +1,25 @@
+.nav-line {
+  height: 9px;
+  width: 100%;
+  display: block;
+  background: url("../images/nav-line.jpg") repeat-x;
+}
+
+.nav-circle {
+  @extend .r-icon;
+  background: url("../images/nav-circle.jpg") no-repeat !important;
+}
+
+.about-triangle {
+  width: 15px;
+  height: 8px;
+  display: block;
+  width: 100%;
+  background: url("../images/about-triangle.jpg") repeat-x;
+}
+
+.about-line {
+  background: url("../images/about-line.jpg") repeat-x;
+  height: 18px;
+  display: block;
+}

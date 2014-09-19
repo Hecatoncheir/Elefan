@@ -1,8 +1,3 @@
-.wrap-width-center {
-  width: 980px;
-  margin: 0 auto;
-}
-
 .collections {
   width: 100%;
   clear: both;
@@ -151,7 +146,7 @@ span {color: $color-ceres}
     margin-right: 55px;
   }
 
-  a:hover {color: $color-ceres}
+  a:hover {color: $color-ceres;}
 
   .more {
     float: left;
@@ -181,6 +176,7 @@ span {color: $color-ceres}
   .collections-active-link {
     text-transform: uppercase;
     text-decoration: underline;
+    color: $color-ceres;
   }
 
 }

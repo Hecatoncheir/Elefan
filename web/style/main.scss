@@ -8,6 +8,13 @@ $color-anothe-gray: #a8b8c7;
 $color-dark-gray: #768fa8;
 $color-text-gray: #5d758c;
 
+//EXTENDS
+.wrap-width-center {
+  width: 980px;
+  margin: 0 auto;
+}
+
+//======== END EXTENDS =========
 
 //Helpers
 $base-font-size: 16;
@@ -26,6 +33,7 @@ $template-width: 1024;
 @import "layout/category_navigation";
 @import "layout/collections";
 @import "layout/main-information";
+@import "layout/pre_footer";
 
 //Pages
 @import "pages/main_page";
@@ -39,3 +47,5 @@ body {
 }
 
 a{text-decoration: none}
+
+section {clear: both}

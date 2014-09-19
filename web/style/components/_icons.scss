@@ -1,3 +1,6 @@
+
+@import "other-visual";
+
 .basket-icon {
   display: block;
   width: 36px;
@@ -39,7 +42,28 @@
   display: block;
 }
 
-//ITEMS
+.eco-icon {
+  background: url("../images/eco-icon.png") no-repeat;
+  width:99px;
+  height: 123px;
+  display: block;
+}
+
+.cost-tag {
+  background: url("../images/cost-tag.png") no-repeat;
+  width: 38px;
+  height: 34px;
+  display: block;
+}
+
+.r-icon {
+  background: url("../images/r-icon.jpg") no-repeat;
+  width: 9px;
+  height: 9px;
+  display: block;
+}
+
+//ITEMS ============================================================
 .group-icon {
   background: url("../images/item-group-icons.png") no-repeat;
   width: 101px;
@@ -58,32 +82,17 @@
 .icon-exc {
   background-position: left bottom;
 }
+//=============================^=^=^=================================
 
-//==============
-
-.cost-tag {
-  background: url("../images/cost-tag.png") no-repeat;
-  width: 38px;
-  height: 34px;
+//INFORMATION ICONS ================================================
+.information-icons {
   display: block;
+  height: 88px;
+  width: 93px;
+  background: url("../images/information-icons.jpg") no-repeat;
 }
 
-.r-icon {
-  background: url("../images/r-icon.jpg") no-repeat;
-  width: 9px;
-  height: 9px;
-  display: block;
-}
-
-.nav-line {
-  height: 9px;
-  width: 100%;
-  display: block;
-  background: url("../images/nav-line.jpg") repeat-x;
-}
-
-.nav-circle {
-  @extend .r-icon;
-  background: url("../images/nav-circle.jpg") no-repeat;
-}
-
+.infMoscow-icon {background-position: left top;}
+.infPayment-icon {background-position: left center}
+.infCourier-icon {background-position: left bottom}
+//=============================^=^=^=================================

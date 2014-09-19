@@ -4,11 +4,166 @@
   width: 100%;
 }
 
+//HEADER======================================
 .information-header {
   border-top: 1px solid #e8ebf0;
   border-bottom: 1px solid #e8ebf0;
   background-color: #f6f7f9;
   color: $color-dark-gray;
-  height: 140px;
+  height: 138px;
   width: 100%;
+
+  font-family: pf_beausans_pro_bbook-ital;
+  font-style: italic;
+  font-size: em(20);
+
+  .center-position {
+    @extend .wrap-width-center;
+    padding-top: 23px;
+    padding-left: 80px;
+  }
+
+  span {
+    display: block;
+    float: left;
+    margin-top: 22px;
+  }
+
+  .infMoscow {
+    span {margin-left: 40px;}
+  }
+
+  .infPayment {
+    span {margin-left: 20px;}
+  }
+
+  .infCourier {
+    margin-left: -9px;
+    span {margin-left: 40px;}
+  }
+  
+  i{float: left;}
+
+  .inf-icons {
+    margin-right: 127px;
+    display: block;
+    float: left;
+  }
+
+  .inf-icons:last-child {margin-right: 0;}
+
+}
+
+//ARTICLES======================================
+.articles {
+  @extend .wrap-width-center;
+  clear: both;
+  margin-top: 18px;
+  padding-left: 56px;
+  padding-top: 7px;
+
+  h3 {
+    color: $color-ceres-dark;
+    text-transform: uppercase;
+    font-size: em(17);
+    font-family: pf_beausans_pro_sebold-ital;
+    font-style: italic;
+  }
+
+  p {
+    color: $color-dark-gray;
+    font-size: em(17);
+    font-family: pf_beausans_pro_book-ital;
+    font-style: italic;
+  }
+
+  article:first-child {
+    float: left;
+    margin-right: 50px;
+    width: percent(280,980);
+  }
+
+  article {margin-bottom: 30px;}
+
+  .eco-icon {
+    clear: both;
+    margin-left: 60px;
+    margin-top: -15px;
+  }
+
+}
+
+//ABOUT======================================
+.information-about:before {
+  @extend .about-triangle;
+  position: absolute;
+  top: -8px;
+  content: '';
+}
+
+.information-about:after {
+  @extend .about-triangle;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  transform: scaleY(-1);
+}
+
+.information-about {
+  clear: both;
+  position: relative;
+  background-color: $color-dark-gray;
+  min-height: 190px;
+  margin-top: 82px;
+
+  h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    font-family: pf_beausans_pro_black-ital;
+    font-style: italic;
+    font-size: em(24);
+    @extend .about-line;
+    background-position: 0 20px;
+
+    span {
+      background: $color-dark-gray;
+      padding: 0 12px;
+    }
+
+  }
+
+  p {
+    padding-top: 4px;
+    @extend .wrap-width-center;
+    color: #fff;
+    font-family: pf_beausans_pro_book-ital;
+    font-size: em(16);
+    font-style: italic;
+    font-weight: normal;
+    padding-bottom: 22px;
+  }
+
+
+}
+
+.Up {
+  clear: both;
+  text-align: center;
+  margin-top: 35px;
+  padding-top: 15px;
+  color: $color-dark-gray;
+  font-family: pf_beausans_pro_light;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: em(14);
+
+  i{
+    margin: 0 auto;
+    transform: rotate(-90deg);
+    margin-top: -18px;
+  }
+
+  i:last-child {margin-bottom: 8px;}
+
 }
