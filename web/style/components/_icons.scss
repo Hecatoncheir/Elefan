@@ -75,7 +75,15 @@
   display: block;
 }
 
+.nav-line {
+  height: 9px;
+  width: 100%;
+  display: block;
+  background: url("../images/nav-line.jpg") repeat-x;
+}
+
 .nav-circle {
   @extend .r-icon;
   background: url("../images/nav-circle.jpg") no-repeat;
 }
+

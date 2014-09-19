@@ -133,6 +133,8 @@ span {color: $color-ceres}
   left: (173 / 2) - (78 / 2) * 1px;
 }
 
+.buy:hover {background-color: $color-dark-gray;}
+
 .collections-navigation{
   @extend .wrap-width-center;
   clear: both;
@@ -144,17 +146,39 @@ span {color: $color-ceres}
     font-family: pf_beausans_pro_sebold-ital;
     font-style: italic;
     font-size: em(17);
+    margin-right: 55px;
   }
+
+  a:hover {color: $color-ceres}
 
   .more {
     float: left;
+    margin-left: 0px;
+    margin-right: -30px;
+
+    .nav-line {
+      float: left;
+      width: 40px;
+      margin-top: 7px;
+      margin-right: 17px;
+    }
 
     .nav-circle {
       float: left;
-      margin-top: 5px;
-      margin-right: 10px;
+      display: block;
+      margin-top: 6px;
+      margin-right: 13px;
     }
+  }
 
+  .more:hover {
+    color: $color-ceres-dark;
+    font-family: pf_beausans_pro_sebold-ital;
+  }
+
+  .collections-active-link {
+    text-transform: uppercase;
+    text-decoration: underline;
   }
 
 }
