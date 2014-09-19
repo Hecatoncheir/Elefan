@@ -8,6 +8,7 @@ $color-anothe-gray: #a8b8c7;
 $color-dark-gray: #768fa8;
 $color-text-gray: #5d758c;
 
+
 //Helpers
 $base-font-size: 16;
 $template-width: 1024;
@@ -24,6 +25,7 @@ $template-width: 1024;
 @import "layout/header";
 @import "layout/category_navigation";
 @import "layout/collections";
+@import "layout/main-information";
 
 //Pages
 @import "pages/main_page";
@@ -32,7 +34,6 @@ body {
   background: #fff url("../images/line-repeat-x.jpg") repeat-x;
   min-height: 30px;
   font-family: pf_beausans_pro_reg;
-//  padding-top: 15px;
 
   min-height: 1200px;
 }
