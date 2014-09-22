@@ -1,0 +1,59 @@
+.is_clickable {
+    cursor: hand;
+    cursor: pointer;
+}
+.nstSlider {
+    cursor: hand;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    /*width: 300px;*/
+    height: 6px;
+    background: #b3c1cf;
+}
+/*.nstSlider .leftGrip.gripHighlighted {*/
+    /*background: #113344;*/
+/*}*/
+/*.nstSlider .rightGrip.gripHighlighted {*/
+    /*background: #113344;*/
+/*}*/
+.nstSlider .rightGrip,
+.nstSlider .leftGrip {
+    position: absolute;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 22px;
+    height: 20px;
+    top: -4px;
+    background: #ffffff;
+    background: url("../images/range-handle.png") no-repeat;
+}
+
+.nstSlider .leftGrip {transform: rotate(-180deg); top:-10px;}
+
+.nstSlider .bar {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+    background: #768fa8;
+    height: 6px;
+    top: -0px;
+}
+/*.nstSlider .highlightPanel {*/
+    /*-webkit-transition: all 500ms ease-in-out;*/
+    /*-moz-transition: all 500ms ease-in-out;*/
+    /*-ms-transition: all 500ms ease-in-out;*/
+    /*-o-transition: all 500ms ease-in-out;*/
+    /*transition: all 500ms ease-in-out;*/
+    /*-webkit-border-radius: 10px;*/
+    /*-moz-border-radius: 10px;*/
+    /*border-radius: 10px;*/
+    /*position: absolute;*/
+    /*background: #e87722;*/
+    /*height: 20px;*/
+    /*top: 0;*/
+/*}*/

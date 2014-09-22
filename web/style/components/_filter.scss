@@ -1,0 +1,247 @@
+.filters {
+  float: left;
+  display: block;
+  width: 238px;
+  margin-left: -5px;
+  margin-top: -7px;
+
+  h3 {
+    color: $color-dark-gray;
+    text-align: center;
+    font-family: pf_beausans_pro_sebold-ital;
+    font-style: italic;
+    font-size: em(22);
+  }
+
+}
+
+.filter {
+  border: 2px solid $color-light-gray;
+  border-radius: 12px;
+  min-height: 120px;
+  margin-top: -12px;
+  padding:0 7px;
+  padding-bottom: 20px;
+  background: $color-filter-bg;
+}
+
+.done {
+  background: #d9e2ec;
+  border-radius: 12px;
+}
+
+.filter-input:hover {
+  @extend .done;
+}
+
+.filter-input {
+  padding: 4px 5px !important;
+}
+
+.filters {
+  h4{
+    margin-top: 13px;
+    font-family: pf_beausans_pro_book-ital;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: em(14);
+    color: $color-ceres;
+  }
+
+  h5 {
+    color: $color-dark-gray;
+    font-family: pf_beausans_pro_sebold-ital;
+    font-style: italic;
+    font-size: em(16);
+  }
+}
+
+.nstSlider {
+  width: 100%;
+}
+
+.label {
+  background: $color-dark-gray;
+  border-radius: 12px;
+  color: #fff;
+  font-family: pf_beausans_pro_sebold-ital;
+  font-style: italic;
+  font-size: em(14);
+  padding: 2px 8px;
+  position: relative;
+}
+
+.leftLabel:before {
+  content: '';
+  background: url("../../images/lebel-arrow.png") no-repeat;
+  display: block;
+  width: 9px;
+  height: 8px;
+  top: -7px;
+  right: 5px;
+  z-index: 3;
+  position: absolute;
+}
+
+.rightLabel:before {
+  content: '';
+  background: url("../../images/lebel-arrow.png") no-repeat;
+  display: block;
+  width: 9px;
+  height: 8px;
+  top: -7px;
+  left: 5px;
+  z-index: 3;
+  position: absolute;
+}
+
+
+
+.leftLabel {
+  transform: rotate(-180deg);
+  top: -28px;
+  position: absolute;
+}
+
+.rightLabel {
+  position: absolute;
+  top: 20px;
+}
+
+
+
+//======================
+
+.filter-brand {
+  margin-top: 60px;
+  .filter-input{
+    margin-top: -10px;
+  }
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+  display:none;
+}
+input[type="checkbox"] + label{
+  font-family: pf_beausans_pro_book;
+  font-size: em(18);
+  width: 100%;
+  display: block;
+  color: $color-dark-gray;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label::before {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin: 0 5px -3px 0;
+  background: url(../../images/check-bg.png) no-repeat;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background: url(../../images/check-bg-ok.png) no-repeat;
+
+}
+
+
+.filter-input {border-radius: 12px;}
+
+
+//=================
+.filter-material {
+  background: $color-ceres;
+  width: 108%;
+  position: relative;
+  right: -8px;
+  left: -9px;
+  padding: 2px 0;
+
+  hr {
+    border: 0 none;
+    background: #fff;
+    color: #fff;
+    display: block;
+    height: 1px;
+    width: 96%;
+    margin: 15px 0 0 5px;
+    position: absolute;
+    top: 7px;
+  }
+
+  h4 {
+    color: #fff;
+    text-align: center;
+    z-index: 4;
+    position: relative;
+    span {
+      background: $color-ceres;
+      padding: 0 5px;
+    }
+  }
+
+
+  input[type="checkbox"] + label::before {
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    margin: 0 5px -3px 0;
+    background: url(../../images/check-bg-white.png) no-repeat;
+  }
+
+  input[type="checkbox"]:checked + label::before {
+    background: url(../../images/check-bg-ok-white.png) no-repeat;
+
+  }
+
+  .done {background: #FFF; color: $color-ceres;}
+
+  .filter-input {
+    margin: 0 10px;
+  }
+
+  .filter-input:hover {
+    input[type="checkbox"] + label::before {
+      background: url(../../images/check-bg-ceres.png) no-repeat;
+    }
+
+    input[type="checkbox"]:checked + label::before {
+      background: url(../../images/check-bg-ok-ceres.png) no-repeat;
+
+    }
+  }
+
+
+  input[type="checkbox"] + label{
+    color: #fff;
+  }
+
+  .filter-input:hover {
+    input[type="checkbox"] + label{
+      color: $color-ceres;
+    }
+  }
+
+}
+
+
+.filter-size {
+  .filter-input {
+    input[type="checkbox"] + label{
+      clear: both;
+      padding-top: 10px;
+      margin-bottom: 20px;
+    }
+    span {
+      margin-top: -10px;
+      margin-right: 10px;
+      width: 80%;
+      display: block;
+      float: right;
+      clear: right;
+    }
+  }
+}

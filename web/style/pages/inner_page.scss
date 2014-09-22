@@ -1,0 +1,50 @@
+//sass --watch web/style/pages/inner_page.scss:web/style/inner_page.css --style compressed
+
+@import "../helpers/colors";
+@import "../helpers/extends";
+$base-font-size: 16;
+$template-width: 1024;
+@import "../helpers/functions";
+
+@import "../components/bread-crumbs";
+@import "../components/filter";
+@import "../components/pagination";
+
+.pre-footer {
+  .last-seen{
+    width:100%;
+  }
+
+  .social {
+    float: right;
+    margin-top: -110px;
+  }
+}
+
+
+.Up {
+  margin-bottom: -74px;
+}
+
+main {
+  @extend .wrap-width-center;
+  clear: both;
+}
+
+.items {
+  float: right;
+  clear: none;
+  width: 72%;
+  margin-right: 4px;
+  margin-top: 55px;
+}
+
+.item {
+  margin-right: 78px;
+  margin-bottom: 100px;
+  height: auto;
+}
+
+.item:nth-child(3n) {
+  margin-right: 10px;
+}
