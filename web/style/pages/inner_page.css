@@ -271,6 +271,18 @@ input[type="checkbox"]:checked + label::before {
   float: right;
   clear: right; }
 
+.pagination {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  display: block; }
+
+.prev-page {
+  float: left; }
+
+.next-page {
+  float: right; }
+
 .pre-footer .last-seen {
   width: 100%; }
 .pre-footer .social {

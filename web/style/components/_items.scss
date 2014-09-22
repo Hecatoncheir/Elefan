@@ -21,6 +21,10 @@
   color: $color-dark-gray;
 }
 
+.item:hover {
+  border: 1px solid $color-dark-gray;
+}
+
 .item:last-child {margin-right: 0}
 
 .item-group {
