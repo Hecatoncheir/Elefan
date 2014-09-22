@@ -1,0 +1,61 @@
+.main-footer {
+  clear: both;
+  padding-top: 66px;
+  @extend .wrap-width-center;
+
+  nav {
+    float: left;}
+
+  a {
+    float: left;
+    font-family: pf_beausans_pro_book-ital;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-right: 28px;
+    font-size: em(14);
+    color: $color-ceres;
+  }
+
+  a:hover{color: $color-ceres-dark}
+
+  h5 {
+    float: right;
+    font-size: em(14);
+    margin-top: 0;
+    color: $color-anothe-gray;
+    font-family: pf_beausans_pro_light-ital;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  hr{
+    background-color: $color-gray;
+    color: $color-gray;
+    clear: both;
+    height: 1px;
+    border: 0 none;
+  }
+
+  .copyright{
+    color: $color-dark-gray;
+    text-transform: uppercase;
+    float:left;
+    clear: both;
+    font-size: em(12);
+    span{color: $color-ceres}
+    font-family: pf_beausans_pro_light-ital;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .designedBy {
+    @extend .copyright;
+    float: right;
+    clear: none;
+    text-transform: none;
+    span{text-transform: uppercase}
+  }
+
+}

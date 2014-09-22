@@ -43,6 +43,7 @@ $template-width: 1024;
 @import "layout/main_information";
 @import "layout/up";
 @import "layout/pre_footer";
+@import "layout/footer";
 
 //Pages
 @import "pages/main_page";
@@ -51,8 +52,6 @@ body {
   background: #fff url("../images/line-repeat-x.jpg") repeat-x;
   min-height: 30px;
   font-family: pf_beausans_pro_reg;
-
-  min-height: 1200px;
 }
 
 a{text-decoration: none}

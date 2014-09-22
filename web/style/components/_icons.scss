@@ -107,12 +107,14 @@
 //SOCIAL ICONS ================================================
 .social-icons {
   display: block;
-  height: 30px;
+  height: 29px;
   width: 40px;
   background: url("../images/soc-icons.jpg") no-repeat;
 }
 
 .soc-vkontacte-icon {background-position: center top;}
-.infPayment-icon {background-position: left center}
-.infCourier-icon {background-position: left bottom}
+.soc-ok-icon {background-position: center -29px;}
+.soc-facebook-icon {background-position: center -58px;}
+.soc-instagram-icon {background-position: center -87px;}
+.soc-google-plus-icon {background-position: center -116px;}
 //=============================^=^=^=================================
