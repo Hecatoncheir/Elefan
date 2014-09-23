@@ -1,0 +1,77 @@
+.reviews {
+  position: relative;
+  h3 {
+    font-family: pf_beausans_pro_sebold-ital;
+    font-style: italic;
+    font-size: em(18);
+    margin-bottom: 5px;
+    z-index: 3;
+    position: relative;
+  }
+
+  .review-corner {
+    background: url("../../images/reviews-corner.jpg") no-repeat;
+    display: block;
+    width: 60px;
+    height: 35px;
+    position: absolute;
+    right: -12px;
+    top: 13px;
+    z-index: 1;
+  }
+
+  .review-wrap {
+    border: 3px solid $color-light-gray;
+    width: 238px;
+    display: block;
+    border-radius: 6px;
+  }
+
+  .review {
+    border: 3px solid #b3c1cf;
+    min-height: 20px;
+    margin: 4px 3px;
+    border-radius: 6px;
+    text-align: center;
+
+    a {
+      background: $color-ceres;
+      color: #fff;
+      padding: 2px 5px;
+      font-family: pf_beausans_pro_reg;
+      font-size: em(16);
+      border-radius: 6px;
+    }
+
+    a:hover {
+      background: $color-dark-gray;
+    }
+
+    p {
+      color: $color-ceres;
+      font-family: pf_beausans_pro_italic;
+      font-size: em(18);
+      font-style: italic;
+    }
+
+  }
+
+  header {
+    width: 100%;
+    padding: 12px 5px;
+    padding-top: 16px;
+  }
+
+  .zig-zag-image {
+    display: block;
+    height: 6px;
+    width: 100%;
+    background: url("../../images/zig-zag-line-background.png") repeat-x;
+  }
+
+  footer {
+    clear: both;
+    padding: 20px 5px;
+  }
+
+}

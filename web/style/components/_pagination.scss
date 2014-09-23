@@ -13,3 +13,91 @@
 .next-page {
   float: right;
 }
+
+.pagination {
+  position: relative;
+
+  hr{
+    position: absolute;
+    top: 0;
+    width: 103%;
+    left: -10px;
+  }
+
+  .prev-page, .next-page {
+    background: #fff;
+    padding: 2px 5px;
+    display: block;
+    position: relative;
+    z-index: 4;
+
+    font-size: em(17);
+    font-family: pf_beausans_pro_book-ital;
+    font-style: italic;
+
+    a {
+      color: $color-dark-gray;
+      float: left;
+      margin-top: -4px;
+    }
+  }
+
+  .not-have-page-more {opacity: 0.5;}
+
+  .prev-page {
+    .pagination-arrow-icon {
+      transform: rotate(180deg);
+      float: left;
+      margin-right:5px;
+    }
+  }
+
+  .next-page {
+    .pagination-arrow-icon {
+      float: right;
+      margin-left: 5px;
+    }
+  }
+
+  a:hover {color: $color-ceres;}
+
+  .page-numbers {
+    width: 960px;
+    background: #fff;
+    padding: 0 5px;
+    z-index: 3;
+    max-width:260px;
+    float: left;
+
+    .page-div {
+      position: relative;
+      display: inline;
+      z-index: 3;
+      top: -5px;
+      text-align: center;
+    }
+
+    span {
+      background: #fff;
+      line-height: 30px;
+      text-align: center;
+      padding: 4px 10px;
+      width: 30px;
+      height: 30px;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px;
+      border: 1px solid $color-dark-gray;
+    }
+
+    .page-active{
+      background: $color-ceres !important;
+      color: #fff !important;
+      border: 1px solid $color-ceres-dark !important;
+    }
+
+  }
+
+
+
+}

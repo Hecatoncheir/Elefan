@@ -8,6 +8,7 @@ $template-width: 1024;
 
 @import "../components/bread-crumbs";
 @import "../components/filter";
+@import "../components/reviews";
 @import "../components/pagination";
 
 .pre-footer {
@@ -21,9 +22,19 @@ $template-width: 1024;
   }
 }
 
+hr {
+  width: 100%;
+  display: block;
+  border: 0 none;
+  height: 1px;
+  color: $color-dark-gray;
+  background: $color-dark-gray;
+}
+
 
 .Up {
   margin-bottom: -74px;
+  padding-top: 100px;
 }
 
 main {

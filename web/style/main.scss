@@ -3,7 +3,7 @@
 //Helpers
 $base-font-size: 16;
 $template-width: 1024;
-@import "helpers/pesticide";
+//@import "helpers/pesticide";
 @import "helpers/colors";
 @import "helpers/extends";
 @import "helpers/functions";
@@ -50,6 +50,10 @@ input::-webkit-input-placeholder{
   font-family: pf_beausans_pro_book-ital;
   font-style: italic;
   font-size: em(18);
+}
+
+input:focus {
+  color: $color-dark-gray;
 }
 
 .both {
