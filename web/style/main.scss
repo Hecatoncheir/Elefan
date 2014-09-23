@@ -1,5 +1,6 @@
 //sass --watch web/style/main.scss:web/style/main.css --style compressed
 
+
 //Helpers
 $base-font-size: 16;
 $template-width: 1024;
@@ -13,6 +14,7 @@ $template-width: 1024;
 //Components
 @import "components/icons";
 @import "components/search";
+@import "components/shop-basket";
 
 //Layout
 @import "layout/header";

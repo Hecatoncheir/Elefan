@@ -1,0 +1,31 @@
+//Shop Basket
+.shop-basket {
+  display: block;
+  height: 35px;
+  position: absolute;
+  left: 12px;
+  top: 50px;
+  //  width: 200px;
+  width: percent(200);
+  line-height: 18px;
+  padding-top: 3px;
+
+  font-family: pf_beausans_pro_book-ital;
+  font-style: italic;
+  color: $color-ceres;
+
+  i {float: left; margin-right: 14px; margin-top: 2px;}
+
+  span{
+    color: $color-anothe-gray;
+    text-transform: uppercase;
+    font-size: em(17);
+  }
+
+  a {
+    color: $color-ceres;
+  }
+
+  a:hover {color: $color-ceres-dark}
+
+}
