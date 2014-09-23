@@ -5,6 +5,7 @@
 $base-font-size: 16;
 $template-width: 1024;
 @import "../helpers/functions";
+@import "../helpers/markers";
 
 @import "../components/bread-crumbs";
 @import "../components/filter";

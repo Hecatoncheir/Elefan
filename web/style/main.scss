@@ -34,7 +34,10 @@ body {
   font-family: pf_beausans_pro_reg;
 }
 
-a{text-decoration: none}
+a{
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
 
 section {clear: both}
 

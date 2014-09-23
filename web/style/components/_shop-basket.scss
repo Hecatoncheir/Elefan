@@ -6,7 +6,8 @@
   left: 12px;
   top: 50px;
   //  width: 200px;
-  width: percent(200);
+//  width: percent(200);
+  width: percent(240);
   line-height: 18px;
   padding-top: 3px;
 
@@ -16,6 +17,7 @@
 
   i {float: left; margin-right: 14px; margin-top: 2px;}
 
+
   span{
     color: $color-anothe-gray;
     text-transform: uppercase;
@@ -24,6 +26,11 @@
 
   a {
     color: $color-ceres;
+    span {
+      color: $color-dark-gray;
+      text-transform: none;
+      font-size: em(14);
+    }
   }
 
   a:hover {color: $color-ceres-dark}

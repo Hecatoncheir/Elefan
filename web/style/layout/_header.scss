@@ -78,7 +78,7 @@ hgroup span {
   font-size: em(16);
   padding-top: 8px;
 
-  a { color: #fff;}
+  a { color: #fff;  transition: all 0.1s ease-in-out;}
 
   i {
     float: left;

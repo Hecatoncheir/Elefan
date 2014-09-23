@@ -1,1 +1,164 @@
 @import "inner_page";
+
+.inner-category {
+  h2{
+    color: $color-ceres;
+    margin-top: 16px;
+  }
+}
+
+.item-images {
+  float: left;
+  width: 290px;
+  margin-top: 24px;
+  margin-left: -5px;
+  padding: 2px 0;
+  img{
+    border: 1px solid $color-dark-gray;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 130px;
+    cursor: pointer;
+    padding: 4px 0;
+    transition: all 0.2s ease-in-out;
+  }
+
+  img:nth-child(2n){
+    margin-right: 0;
+    float: right;
+  }
+
+  .image-active {border: 1px solid $color-ceres;}
+
+  img:hover {@extend .image-active}
+
+}
+
+.item-image {
+  width: 302px;
+  float: left;
+  margin-left: 28px;
+  margin-top: 22px;
+  position: relative;
+  height: auto;
+
+  .nav-circle {
+    opacity: 0.5;
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+  }
+
+  .group-icon {
+    top:0;
+    position: absolute;
+  }
+
+  .article {
+    float: left;
+    margin-right: 10px;
+    color: $color-ceres;
+    text-transform: uppercase;
+    font-family: pf_beausans_pro_book-ital;
+    font-style: italic;
+    font-size: em(14);
+    span{
+      color: $color-dark-gray;
+      text-transform: none;
+    }
+  }
+
+  .art-number {
+    font-size: em(13);
+    padding-left: 20px;
+    color: $color-light-gray;
+    font-family: pf_beausans_pro_reg;
+  }
+
+  .cost {
+    float: right;
+    margin-top: -10px;
+    padding: 0;
+    margin-right: 25px;
+//    margin-right: 28px;
+    color: $color-dark-gray;
+    font-family: pf_beausans_pro_sebold-ital;
+    font-style: italic;
+    font-size: em(18);
+    span{
+      color: $color-ceres;
+      font-size: em(24);
+      margin-left: 0px;
+    }
+
+    .nav-circle {
+      opacity: 0.5;
+      margin-right: 15px;
+      margin-top: 14px;
+    }
+
+  }
+
+  .item-cost-tag {
+    position: absolute;
+    right: -16px;
+    bottom: -16px;
+  }
+
+  footer {
+    margin-top: 13px;
+    padding-left: 2px;
+    position: relative;
+  }
+
+
+  img {
+    border: 1px solid $color-ceres;
+    border-radius: 6px;
+    width: 100%;
+    padding: 45px 10px;
+    padding-bottom: 50px;
+  }
+}
+
+.item-info {
+  float: right;
+  clear: none;
+  width: percent(330);
+  margin-top: 23px;
+
+  .nav-circle {
+    float: left;
+    position: relative;
+    top: 5px;
+    margin-right: 8px;
+    margin-left: 15px;
+  }
+
+  .item-buy {
+    background: $color-ceres;
+    color: #fff;
+    float: left;
+    display: block;
+    font-family: pf_beausans_pro_book-ital;
+    font-style: italic;
+    font-size: em(14);
+    padding: 1px 6px;
+    border-radius: 6px;
+  }
+
+  .item-in-stock {
+    color: $color-green;
+//    text-decoration: underline;
+    border-bottom: 1px solid $color-green;
+  }
+
+  p {
+    font-family: pf_beausans_pro_book;
+    font-size: em(14);
+    color: $color-dark-gray;
+  }
+
+}

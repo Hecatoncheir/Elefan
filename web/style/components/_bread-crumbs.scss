@@ -43,7 +43,11 @@
 }
 
 .first-br-bg{margin-left: 40px;}
-.last-br-bg{margin-left:0; padding-left: 0}
+.last-br-bg{
+  margin-left:0;
+  padding-left: 0;
+  i{opacity: 0.5}
+}
 
 .main-category {
   padding-left: 0;
