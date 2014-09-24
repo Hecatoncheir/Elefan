@@ -1,0 +1,118 @@
+.reviews {
+  clear: both;
+  position: relative;
+
+  top:36px;
+}
+
+.reviews-print {
+  width: 626px;
+  float: left;
+  display: block;
+  font-family: pf_beausans_pro_thin;
+  font-weight: normal;
+  font-size: em(16);
+  color: $color-dark-gray;
+
+
+  p {
+    padding-left: 74px;
+    font-family: pf_beausans_pro_reg;
+    font-weight: normal;
+    font-size: em(16);
+    margin-top: 8px;
+  }
+
+}
+
+.comment {
+  clear: both;
+  margin-top: 14px;
+  margin-bottom: 41px;
+}
+
+.reviews-header {
+  position: relative;
+
+  .br-bg {
+    position: relative;
+    top: -22px;
+  }
+
+
+  h3 {
+    font-family: pf_beausans_pro_reg;
+    font-size: em(14);
+    color: $color-gray;
+    background: #fff;
+    padding: 0 15px;
+    padding-left: 0;
+    font-style: normal;
+    font-weight: normal;
+    float: left;
+    margin-top: -22px;
+  }
+
+  .arrow-icon {
+    float: right;
+    position: relative;
+    top: -18px;
+    right: -10px;
+    width: 6px;
+    background-position: -2px -2px;
+    height: 8px;
+  }
+
+}
+
+
+.line {
+  position: relative;
+  margin-left: 75px;
+
+  hr{
+    position: absolute;
+    width: percent(200);
+    margin-left: -75px;
+  }
+
+  time {
+    float: left;
+  }
+
+  .first-br-bg {
+    margin-left: -29px;
+    margin-top: 4px;
+    z-index: 3;
+    position: relative;
+    float: left;
+  }
+
+  .arrow-icon {
+    float: left;
+    width: 6px;
+    background-position: -2px -2px;
+    height: 8px;
+    margin-top: 4px;
+  }
+
+}
+
+time {
+  background: #fff;
+  z-index: 3;
+  color: $color-gray;
+  padding:  0 10px;
+  padding-left: 0;
+  margin-top: -2px;
+  position: relative;
+}
+
+.reviewer-name {
+  margin-left: 6px;
+  position: relative;
+  top: -2px;
+  color: $color-ceres;
+  text-transform: uppercase;
+  font-family: pf_beausans_pro_book;
+}

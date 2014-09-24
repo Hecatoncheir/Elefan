@@ -57,7 +57,11 @@ input::-webkit-input-placeholder{
   font-size: em(18);
 }
 
-input:focus {
+input, textarea {
+  outline: none;
+}
+
+textarea, input:focus {
   color: $color-dark-gray;
 }
 

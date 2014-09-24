@@ -7,7 +7,7 @@
   top: 50px;
   //  width: 200px;
 //  width: percent(200);
-  width: percent(240);
+  width: percent(250);
   line-height: 18px;
   padding-top: 3px;
 
@@ -16,6 +16,8 @@
   color: $color-ceres;
 
   i {float: left; margin-right: 14px; margin-top: 2px;}
+
+  .r-icon {display: inline-block}
 
 
   span{

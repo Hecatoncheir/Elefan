@@ -31,7 +31,7 @@
     <div class="shop-basket">
         <i class="basket-icon"></i>
         <span>У Вас в корзине</span><br>
-        <a href="#">2 <span>Товара на сумму</span> 4318 <span>р</span></a>
+        <a href="#">2 <span>Товара на сумму</span> 43218 <span class="r-icon"></span></a>
     </div>
 
     <form class="header-search search">
@@ -89,16 +89,7 @@
         <i class="nav-circle"></i>
     </div>
 
-    <div class="sort-selector">
-        <select>
-            <option>Самые популярные</option>
-            <option>от А до Я</option>
-            <option>от Я до А</option>
-            <option>по-дешевле</option>
-            <option>по-дороже</option>
-            <option>хиты продаж</option>
-        </select>
-    </div>
+    <!--<div class="line-fix"></div>-->
 
 </section>
 
@@ -128,9 +119,15 @@
     </div>
 
     <section class="item-info">
+      <!--ITEM IN STOCK-->
         <a class="item-buy" href="#">Купить</a>
         <i class="nav-circle"></i>
         <span class="item-in-stock">Есть в наличии</span>
+      <!--ITEM NOT IN STOCK-->
+        <!--<i class="nav-circle"></i>-->
+        <!--<span class="item-not-in-stock">Нет в наличии</span>-->
+
+
         <p class="ceres-marked">Важные потребительские свойства изделий коллекции «Baby Line»:</p>
 
         <ul>
@@ -138,6 +135,71 @@
             <li>долговечность</li>
             <li>легкость в уходе: легко стирается, быстро сохнет</li>
         </ul>
+
+        <p><span class="ceres-marked italic">Наполнитель:</span><br>
+        заменитель лебяжьего пуха микроволокно DownFill</p>
+
+        <p><span class="ceres-marked italic">Ткань чехла:</span><br>
+            перкаль (100% хлопок)</p>
+
+        <p class="left-position">
+            <span class="ceres-marked italic">Вес:</span>  0,67  кг
+        </p>
+
+        <p class="left-position">
+            <span class="ceres-marked italic">Объём: </span> 0,020 м
+        </p>
+
+    </section>
+
+    <section class="reviews">
+        <div class="reviews-print">
+            <hr>
+            <header class="reviews-header">
+                <div class="br-bg first-br-bg">
+                    <i class="nav-circle"></i>
+                </div>
+                <h3>Отызывы</h3>
+                <i class="arrow-icon"></i>
+            </header>
+
+            <!--ITEM REVIEW-->
+            <div class="comment">
+                <div class="line">
+                    <hr>
+                    <div class="br-bg first-br-bg">
+                        <i class="nav-circle"></i>
+                    </div>
+                    <time>20 мая 2014</time>
+                    <i class="arrow-icon"></i>
+                    <span class="reviewer-name">Максим</span>
+                </div>
+                <p>Хорошие подушки. цена конечно не самая маленькая, но качество не китайское!</p>
+            </div>
+
+            <!--ITEM REVIEW-->
+            <div class="comment">
+                <div class="line">
+                    <hr>
+                    <div class="br-bg first-br-bg">
+                        <i class="nav-circle"></i>
+                    </div>
+                    <time>20 мая 2014</time>
+                    <i class="arrow-icon"></i>
+                    <span class="reviewer-name">Олег</span>
+                </div>
+                <p>Купил эту подушку недавно, но сразу скажу - был приятно удивлен - спать стал лучше - рекомендую купить подушку здесь.</p>
+            </div>
+        </div>
+
+        <div class="comment-form">
+            <h4>Оставить отзыв</h4><i class="nav-circle"></i>
+            <form name="comment">
+                <input type="text" placeholder="Имя">
+                <textarea type="text" placeholder="Отзыв"></textarea>
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
 
     </section>
 

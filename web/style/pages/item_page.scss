@@ -1,10 +1,24 @@
 @import "inner_page";
+@import "../layout/reviews";
+@import "../layout/comment-form";
+
+//.line-fix {
+//  float: right;
+//  background: #fff;
+//  width: 100%;
+//  height: 20px;
+//}
 
 .inner-category {
   h2{
     color: $color-ceres;
     margin-top: 16px;
   }
+}
+
+.breadCrumbs hr {
+  width: 50%;
+  min-width: 50%;
 }
 
 .item-images {
@@ -149,16 +163,62 @@
     border-radius: 6px;
   }
 
+  .item-buy:hover {
+    background: $color-green;
+  }
+
+//  IN STOCK
   .item-in-stock {
     color: $color-green;
 //    text-decoration: underline;
+    margin-top: -5px;
     border-bottom: 1px solid $color-green;
+    position: relative;
+    top: -2px;
   }
 
+  .item-not-in-stock {
+    @extend .item-in-stock;
+    border-color: $color-ceres-dark;
+    color: $color-ceres-dark;
+    position: relative;
+    top: -2px;
+  }
+
+//====================
   p {
     font-family: pf_beausans_pro_book;
     font-size: em(14);
     color: $color-dark-gray;
   }
 
+  ul {
+    padding-left: 15px;
+    margin-top: 23px;
+  }
+  
+  li:before {
+    content: '-';
+    color: $color-ceres;
+    margin-left: -15px;
+    margin-right: 10px;
+  }
+
+  li {
+    list-style: none;
+    color: $color-dark-gray;
+    font-size: em(14);
+//    margin-bottom: -3px;
+  }
+
+}
+
+.left-position {
+  float: left;
+  margin-right: 20px;
+}
+
+.right-position {
+  float: right;
+  margin-left: 20px;
 }
